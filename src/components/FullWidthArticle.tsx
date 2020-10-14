@@ -11,9 +11,10 @@ class FullWidthArticle extends React.Component<{}, {}> {
           justifyContent: "flex-start",
           alignItems: "stretch",
           alignContent: "stretch",
+          backgroundColor: "red",
         }}
       >
-        <Box sx={{ backgroundColor: "red" }}>
+        <Box sx={{}}>
           <Flex
             sx={{
               flexWrap: "wrap",
@@ -23,9 +24,6 @@ class FullWidthArticle extends React.Component<{}, {}> {
               sx={{
                 flexGrow: 1,
                 flexBasis: 400,
-                backgroundColor: "hotpink",
-                padding: "20px",
-                margin: "20px",
                 alignSelf: "center",
               }}
             ></Box>
@@ -34,14 +32,14 @@ class FullWidthArticle extends React.Component<{}, {}> {
                 flexGrow: 99,
                 flexBasis: 0,
                 minWidth: 320,
-                backgroundColor: "blue",
+                padding: "20px",
               }}
             >
               <h1>Title here</h1>
             </Box>
           </Flex>
         </Box>
-        <Box sx={{ backgroundColor: "green" }}>
+        <Box sx={{}}>
           <Flex
             sx={{
               flexWrap: "wrap",
@@ -51,72 +49,30 @@ class FullWidthArticle extends React.Component<{}, {}> {
               sx={{
                 flexGrow: 1,
                 flexBasis: 400,
-                backgroundColor: "hotpink",
-                padding: "20px",
-                margin: "20px",
                 alignSelf: "center",
               }}
             >
-              <RebassImage
-                src="undraw_community.svg"
-                width="100%"
-                height="100%"
-              />
+              <Box
+                sx={{
+                  margin: "20px",
+                  padding: "20px",
+                }}
+              >
+                <RebassImage
+                  src="undraw_community.svg"
+                  width="100%"
+                  height="100%"
+                />
+              </Box>
             </Box>
             <Box
               sx={{
                 flexGrow: 99,
                 flexBasis: 0,
                 minWidth: 320,
-                backgroundColor: "blue",
+                padding: "20px",
               }}
             >
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
               Main Content
               <br />
               Main Content
