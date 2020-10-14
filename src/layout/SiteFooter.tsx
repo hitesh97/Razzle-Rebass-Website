@@ -9,13 +9,16 @@ class SiteFooter extends React.Component<{}, {}> {
           backgroundColor: "black",
           color: "white",
           display: "grid",
-          gridGap: 3,
-          gridTemplateColumns: ["repeat(1, 1fr)", "repeat(4, 1fr)"],
+          gridGap: 1,
+          gridTemplateColumns: [
+            "repeat(1, 1fr)",
+            "repeat(1, 0.25fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 0.25fr)",
+          ],
           p: 2,
         }}
       >
-        <Box></Box>
-        <Box>
+        <Box sx={{}}></Box>
+        <Box sx={{}}>
           Tile 1
           <br />
           Tile 2
@@ -32,8 +35,8 @@ class SiteFooter extends React.Component<{}, {}> {
           <br />
           Tile 8
         </Box>
-        <Box>Tile 9</Box>
-        <Box>Tile 10</Box>
+        <Box sx={{}}>Tile 9</Box>
+        <Box sx={{}}></Box>
         {/* <Box></Box>
         <Box>
           Tile 11

@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "rebass";
+import FullWidthArticle from "../components/FullWidthArticle";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 
@@ -21,7 +22,7 @@ class StickyFooterLayout extends React.Component<{}, {}> {
             flex: "1 1 auto",
           }}
         >
-          Content
+          <FullWidthArticle />
         </Box>
         <Box sx={{}}>
           <SiteFooter />
