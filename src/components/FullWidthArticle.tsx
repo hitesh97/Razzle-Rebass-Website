@@ -11,7 +11,8 @@ class FullWidthArticle extends React.Component<{}, {}> {
           justifyContent: "flex-start",
           alignItems: "stretch",
           alignContent: "stretch",
-          backgroundColor: "red",
+          backgroundColor: "#ece7e7",
+          padding: "8px",
         }}
       >
         <Box sx={{}}>
@@ -32,7 +33,7 @@ class FullWidthArticle extends React.Component<{}, {}> {
                 flexGrow: 99,
                 flexBasis: 0,
                 minWidth: 320,
-                padding: "20px",
+                paddingLeft: "20px",
               }}
             >
               <h1>Title here</h1>
@@ -49,19 +50,25 @@ class FullWidthArticle extends React.Component<{}, {}> {
               sx={{
                 flexGrow: 1,
                 flexBasis: 400,
-                alignSelf: "center",
+                alignSelf: "auto",
               }}
             >
               <Box
                 sx={{
                   margin: "20px",
-                  padding: "20px",
                 }}
               >
                 <RebassImage
                   src="undraw_community.svg"
                   width="100%"
                   height="100%"
+                  sx={{
+                    padding: "2px",
+                    borderStyle: "solid",
+                    borderColor: "#cacaca",
+                    borderWidth: "1px",
+                    borderRadius: "6px",
+                  }}
                 />
               </Box>
             </Box>
@@ -70,19 +77,18 @@ class FullWidthArticle extends React.Component<{}, {}> {
                 flexGrow: 99,
                 flexBasis: 0,
                 minWidth: 320,
-                padding: "20px",
+                paddingLeft: "20px",
+                paddingRight: "20px",
               }}
             >
-              Main Content
               <br />
-              Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content
               <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
-              Main Content
-              <br />
+              End
             </Box>
           </Flex>
         </Box>
