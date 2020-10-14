@@ -1,11 +1,13 @@
-import React from "react";
-import { Box, Flex, Image as RebassImage } from "rebass";
+import React, { Children, ReactNode } from "react";
+import { Box, Flex, Heading, Image as RebassImage } from "rebass";
 
 interface FullWidthArticleProps {
   heading: string;
 }
-
-class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
+class FullWidthArticleContentLeft extends React.Component<
+  FullWidthArticleProps,
+  {}
+> {
   public render() {
     return (
       <section>
@@ -16,19 +18,18 @@ class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
             justifyContent: "flex-start",
             alignItems: "stretch",
             alignContent: "stretch",
-            backgroundColor: "#00B0FF", //"#6c63ff",
+            backgroundColor: "#ece7e7",
             paddingLeft: "80px",
             paddingRight: "80px",
             paddingTop: "30px",
             paddingBottom: "30px",
-            color: "#ffffff",
           }}
         >
           <Box sx={{}}>
             <Flex
               sx={{
                 flexWrap: "wrap",
-                /* flexDirection: "row-reverse", */
+                flexDirection: "row-reverse",
               }}
             >
               {/* <Box
@@ -43,8 +44,8 @@ class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
                   flexGrow: 99,
                   flexBasis: 0,
                   minWidth: 320,
-                  fontSize: "20px",
                   paddingLeft: "20px",
+                  fontSize: "20px",
                   textAlign: "center",
                 }}
               >
@@ -56,7 +57,7 @@ class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
             <Flex
               sx={{
                 flexWrap: "wrap",
-                /* flexDirection: "row-reverse", */
+                flexDirection: "row-reverse",
               }}
             >
               <Box
@@ -79,7 +80,7 @@ class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
                       padding: "2px",
                       borderStyle: "solid",
                       borderColor: "#cacaca",
-                      borderWidth: "0px",
+                      borderWidth: "1px",
                       borderRadius: "6px",
                     }}
                   />
@@ -104,4 +105,4 @@ class FullWidthArticle extends React.Component<FullWidthArticleProps, {}> {
   }
 }
 
-export default FullWidthArticle;
+export default FullWidthArticleContentLeft;
