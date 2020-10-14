@@ -19,24 +19,27 @@ class FullWidthArticle extends React.Component<{}, {}> {
           <Flex
             sx={{
               flexWrap: "wrap",
+              /* flexDirection: "row-reverse", */
             }}
           >
-            <Box
+            {/* <Box
               sx={{
                 flexGrow: 1,
                 flexBasis: 400,
                 alignSelf: "center",
               }}
-            ></Box>
+            ></Box> */}
             <Box
               sx={{
                 flexGrow: 99,
                 flexBasis: 0,
                 minWidth: 320,
                 paddingLeft: "20px",
+                fontSize: "20px",
+                textAlign: "center",
               }}
             >
-              <h1>Title here</h1>
+              <h1>QUICKLY DEVELOP FIT-FOR-PURPOSE SOFTWARE</h1>
             </Box>
           </Flex>
         </Box>
@@ -44,6 +47,7 @@ class FullWidthArticle extends React.Component<{}, {}> {
           <Flex
             sx={{
               flexWrap: "wrap",
+              /* flexDirection: "row-reverse", */
             }}
           >
             <Box
@@ -81,6 +85,34 @@ class FullWidthArticle extends React.Component<{}, {}> {
                 paddingRight: "20px",
               }}
             >
+              <br />
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content
+              <br />
+              <br />
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content
+              <br />
+              <br />
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content
+              <br />
+              <br />
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content Main Content Main Content Main Content
+              Main Content Main Content
+              <br />
               <br />
               Main Content Main Content Main Content Main Content Main Content
               Main Content Main Content Main Content Main Content Main Content
