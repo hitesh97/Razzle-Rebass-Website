@@ -41,7 +41,7 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
               sx={{
                 width: "420px",
                 minHeight: "420px",
-                backgroundColor: "#035449",
+                backgroundColor: "defaultBG",
                 marginLeft: "20px",
               }}
             >
@@ -67,7 +67,7 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
                   variant="outline"
                   sx={{
                     marginTop: "20px",
-                    backgroundColor: "#035449",
+                    backgroundColor: "defaultBG",
                     color: "white",
                     fontWeight: "300",
                     fontFamily: "'PT Sans', system-ui, sans-serif",

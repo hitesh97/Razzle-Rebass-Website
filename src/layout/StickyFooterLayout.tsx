@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "rebass";
 import FullWidthArticle from "../components/FullWidthArticle";
 import FullWidthArticleContentLeft from "../components/FullWidthArticleContentLeft";
+import SectionOne from "../components/SectionOne";
 import TopHeroSection from "../components/TopHeroSection";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
@@ -109,6 +110,7 @@ class StickyFooterLayout extends React.Component<{}, {}> {
           </FullWidthArticle>
          */}
           <TopHeroSection />
+          <SectionOne />
         </Box>
         <Box sx={{}}>
           <SiteFooter />

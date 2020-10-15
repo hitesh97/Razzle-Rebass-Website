@@ -4,7 +4,8 @@ import { renderToString } from "react-dom/server";
 import { StaticRouter } from "react-router-dom";
 
 import { ThemeProvider } from "emotion-theming";
-import theme from "@rebass/preset";
+// import theme from "@rebass/preset";
+import siteTheme from "./themes/SiteThemeGreen";
 
 import App from "./App";
 
@@ -21,7 +22,7 @@ const server = express()
   .get("/*", (req: express.Request, res: express.Response) => {
     const context = {};
     const markup = renderToString(
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={siteTheme}>
         <StaticRouter context={context} location={req.url}>
           <App />
         </StaticRouter>

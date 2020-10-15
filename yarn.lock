@@ -1302,6 +1302,13 @@
     native-url "^0.2.6"
     schema-utils "^2.6.5"
 
+"@rebass/layout@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rebass/layout/-/layout-4.0.6.tgz#5a744775b40698bc539c956001fda874f5e0cee7"
+  integrity sha512-C/PwG30FnP/vFWe6Qrbkv0zLGeXMSE3MwYFOdWlIQ1GuPtFza0aXYfCwBa9lxOYtCeq464QxX1mCg8dnhWXz9Q==
+  dependencies:
+    reflexbox "^4.0.6"
+
 "@rebass/preset@^4.0.5":
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@rebass/preset/-/preset-4.0.5.tgz#f4fb9bec85efa1eb658b92fc64fbb4250d0af2fb"
@@ -8225,6 +8232,13 @@ react-error-overlay@^6.0.6, react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-icons@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.11.0.tgz#2ca2903dfab8268ca18ebd8cc2e879921ec3b254"
+  integrity sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q==
+  dependencies:
+    camelcase "^5.0.0"
 
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
