@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "rebass";
 import FullWidthArticle from "../components/FullWidthArticle";
 import FullWidthArticleContentLeft from "../components/FullWidthArticleContentLeft";
+import TopHeroSection from "../components/TopHeroSection";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 
@@ -23,7 +24,7 @@ class StickyFooterLayout extends React.Component<{}, {}> {
             flex: "1 1 auto",
           }}
         >
-          <FullWidthArticle heading="QUICKLY DEVELOP FIT-FOR-PURPOSE SOFTWARE">
+          {/* <FullWidthArticle heading="QUICKLY DEVELOP FIT-FOR-PURPOSE SOFTWARE">
             <>
               <br />
               Main Content Main Content Main Content Main Content Main Content
@@ -106,6 +107,8 @@ class StickyFooterLayout extends React.Component<{}, {}> {
               End
             </>
           </FullWidthArticle>
+         */}
+          <TopHeroSection />
         </Box>
         <Box sx={{}}>
           <SiteFooter />
