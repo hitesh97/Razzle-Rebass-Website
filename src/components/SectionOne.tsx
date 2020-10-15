@@ -1,9 +1,6 @@
 import React from "react";
 import { Box, Flex, Button, Text } from "rebass";
 import { FaPalette, FaPencilRuler, FaRegPaperPlane } from "react-icons/fa";
-import SectionOneTile1 from "./SectionOneTile1";
-import SectionOneTile2 from "./SectionOneTile2";
-import SectionOneTile3 from "./SectionOneTile3";
 import SectionOneTile from "./SectionOneTile";
 
 interface SectionOneProps {}
