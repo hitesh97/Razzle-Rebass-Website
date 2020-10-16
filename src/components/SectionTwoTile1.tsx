@@ -27,7 +27,7 @@ class SectionTwoTile1 extends React.Component<SectionTwoTile1Props, {}> {
           sx={{
             fontWeight: "300",
             fontSize: "1rem",
-            marginTop: "15px",
+            marginTop: "40px",
           }}
         >
           {this.props.tileSubTitle}

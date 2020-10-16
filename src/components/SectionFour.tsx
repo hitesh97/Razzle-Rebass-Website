@@ -3,10 +3,11 @@ import { Box, Flex, Button, Text } from "rebass";
 import { FaPalette, FaRegPaperPlane } from "react-icons/fa";
 import SectionTwoTile1 from "./SectionTwoTile1";
 import SectionTwoTile2 from "./SectionTwoTile2";
+import SectionFourTile1 from "./SectionFourTile1";
 
-interface SectionTwoProps {}
+interface SectionFourProps {}
 
-class SectionTwo extends React.Component<SectionTwoProps, {}> {
+class SectionFour extends React.Component<SectionFourProps, {}> {
   public render() {
     return (
       <Flex
@@ -23,18 +24,26 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
             minHeight: "450px",
           }}
         >
+          <SectionFourTile1 imgUrl="section4_tile1_img.jpeg" />
+        </Box>
+        <Box
+          sx={{
+            flexGrow: 1,
+            flexBasis: 512,
+            minHeight: "450px",
+          }}
+        >
           <SectionTwoTile1
             tileIcon={null}
-            tileSubTitle="ABOUT US"
-            tileHeading="How We Work"
+            tileSubTitle="WORKING TOGETHER"
+            tileHeading="What Can We Do For You?"
             tileContent={
               <>
                 <p style={{ fontSize: "1.1rem", marginTop: "40px" }}>
-                  Specialists in brand strategy, brand creation and design
-                  across print, digital and environmental platforms. We use
-                  design thinking to add commercial value to our clients
-                  businesses and products, producing work that engages and
-                  provokes positive change.
+                  We can build you a new website from scratch. Most likely it
+                  will be Wordpress-based. We will also take care of the domain
+                  registration for you and and will host and support your site
+                  after the development.
                 </p>
                 <Button
                   variant="outline"
@@ -49,24 +58,6 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
                   LEARN MORE
                 </Button>
               </>
-            }
-          />
-        </Box>
-        <Box
-          sx={{
-            flexGrow: 1,
-            flexBasis: 512,
-            minHeight: "450px",
-          }}
-        >
-          <SectionTwoTile2
-            imgUrl="section2_tile2_img.jpeg"
-            tileContent={
-              <p style={{ fontSize: "1.2rem", marginTop: "30px" }}>
-                They were also very responsive and focused on delivering just
-                what we asked for. We’re extremely happy with our site, and
-                found Elaine really guided us through the process.
-              </p>
             }
           />
         </Box>
@@ -105,7 +96,7 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
               alignSelf: "stretch",
             }}
           >
-            <SectionTwoTile1
+            <SectionFourTile1
               gridArea="leftMain"
               tileIcon={<FaRegPaperPlane size="44" />}
               tileHeading="Branding"
@@ -119,7 +110,7 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
               }
             />
 
-            <SectionTwoTile2
+            <SectionFourTile2
               gridArea="centerMain"
               tileIcon={<FaPalette size="44" />}
               tileHeading="Graphic Design"
@@ -149,4 +140,4 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
   }
 }
 
-export default SectionTwo;
+export default SectionFour;

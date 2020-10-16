@@ -4,6 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 interface SectionTwoTile2Props {
   tileContent: React.ReactNode;
+  imgUrl: string;
 }
 
 class SectionTwoTile2 extends React.Component<SectionTwoTile2Props, {}> {
@@ -16,22 +17,24 @@ class SectionTwoTile2 extends React.Component<SectionTwoTile2Props, {}> {
           height: "100%",
         }}
       >
-        <FaQuoteLeft
-          size="44"
-          style={{
-            position: "absolute",
-            opacity: "0.2",
-            height: "80px",
-            width: "80px",
-            marginTop: "-20px",
-            marginLeft: "-20px",
-          }}
-        />
-        <Box>{this.props.tileContent}</Box>
+        {this.props.tileContent && (
+          <FaQuoteLeft
+            size="44"
+            style={{
+              position: "absolute",
+              opacity: "0.2",
+              height: "80px",
+              width: "80px",
+              marginTop: "-20px",
+              marginLeft: "-20px",
+            }}
+          />
+        )}
+        {this.props.tileContent && <Box>{this.props.tileContent}</Box>}
         <Image
-          src="section2_tile2_img.jpeg"
+          src={this.props.imgUrl}
           sx={{
-            width: "4100%",
+            width: "100%",
             height: "300px",
             objectPosition: "50% 0%",
             backgroundPosition: "50% 0%",
