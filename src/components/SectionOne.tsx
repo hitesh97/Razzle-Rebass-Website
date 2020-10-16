@@ -20,8 +20,8 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
             "min-content min-content 1fr min-content min-content",
             "min-content 1fr min-content",
           ],
-          marginBottom: "20px",
-          marginTop: "20px",
+          marginBottom: "40px",
+          marginTop: "40px",
         }}
       >
         <Box

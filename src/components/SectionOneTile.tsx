@@ -25,7 +25,6 @@ class SectionOneTile extends React.Component<SectionOneTileProps, {}> {
         <Text
           as="h3"
           sx={{
-            fontFamily: "'Open Sans',sans-serif",
             fontWeight: "300",
             fontSize: "2.5rem",
             marginTop: "15px",
