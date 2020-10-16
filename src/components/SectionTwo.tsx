@@ -61,7 +61,7 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
         >
           <SectionTwoTile2
             tileContent={
-              <p style={{ fontSize: "1.2rem" }}>
+              <p style={{ fontSize: "1.2rem", marginTop: "30px" }}>
                 They were also very responsive and focused on delivering just
                 what we asked for. We’re extremely happy with our site, and
                 found Elaine really guided us through the process.

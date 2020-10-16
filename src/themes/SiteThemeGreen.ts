@@ -9,6 +9,7 @@ const siteTheme = {
     highlight: "hsla(205, 100%, 40%, 0.125)",
     defaultBG: "#035449",
     defaultBGLight: "#1f635a",
+    sectionThreeBG: "#f2f2f2",
   },
   fonts: {
     body: "system-ui, sans-serif",
