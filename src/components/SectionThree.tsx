@@ -31,7 +31,9 @@ class SectionThree extends React.Component<{}, {}> {
             display: "grid",
             gridTemplateColumns: [
               "repeat(1, 1fr)",
-              "repeat(1, 0.20fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 0.20fr)",
+              "repeat(1, 1fr)",
+              "repeat(1, 1fr)",
+              "repeat(1, 0.10fr) repeat(3, 1fr) repeat(1, 0.10fr)",
             ],
           }}
         >
