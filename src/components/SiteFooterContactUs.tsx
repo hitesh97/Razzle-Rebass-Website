@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Link } from "rebass";
+import { FaEnvelope, FaPhone, FaWhatsapp, FaHome } from "react-icons/fa";
 
 class SiteFooterContactUs extends React.Component<{}, {}> {
   public render() {
@@ -31,10 +32,21 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
               textAlign: "left",
             }}
           >
-            <li style={{ marginLeft: "15px" }}>GET IN TOUCH</li>
-            <li style={{ marginLeft: "15px" }}>SCHEDULE A MEETING</li>
-            <li style={{ marginLeft: "15px" }}>PHONE: XXX-XXX-XXX</li>
-            <li style={{ marginLeft: "15px" }}>Address :</li>
+            <li style={{ marginLeft: "15px" }}>
+              <FaEnvelope size="20" style={{ marginRight: "20px" }} />
+              GET IN TOUCH
+            </li>
+            <li style={{ marginLeft: "15px" }}>
+              <FaWhatsapp size="20" style={{ marginRight: "20px" }} />
+              SCHEDULE A MEETING
+            </li>
+            <li style={{ marginLeft: "15px" }}>
+              <FaPhone size="20" style={{ marginRight: "20px" }} />
+              PHONE: XXX-XXX-XXX
+            </li>
+            <li style={{ marginLeft: "15px" }}>
+              <FaHome size="20" style={{ marginRight: "20px" }} /> Address :
+            </li>
           </ul>
         </Box>
       </Flex>
