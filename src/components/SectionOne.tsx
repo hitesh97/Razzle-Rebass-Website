@@ -11,15 +11,8 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
       <Box
         sx={{
           display: "grid",
-          gridTemplateAreas: [
-            '"marginLeft" "main" "marginRight"',
-            '"marginLeft main marginRight"',
-          ],
-          gridTemplateColumns: ["1fr", "100px 1fr 100px"],
-          gridTemplateRows: [
-            "min-content min-content 1fr min-content min-content",
-            "min-content 1fr min-content",
-          ],
+          gridTemplateAreas: ['"main"', '"marginLeft" "main" "marginRight"'],
+          gridTemplateColumns: ["1fr", "1fr"],
           marginBottom: "40px",
           marginTop: "40px",
         }}
@@ -27,6 +20,7 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
         <Box
           sx={{
             gridArea: "main",
+            margin: "auto",
           }}
         >
           <Box
@@ -34,13 +28,10 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
               display: "grid",
               gridTemplateAreas: [
                 '"leftMain" "centerMain" "rightMain"',
+                '"leftMain" "centerMain" "rightMain"',
                 '"leftMain centerMain rightMain"',
               ],
-              gridTemplateColumns: ["1fr", "1fr 1fr 1fr"],
-              gridTemplateRows: [
-                "min-content min-content 1fr min-content min-content",
-                "min-content 1fr min-content",
-              ],
+              gridTemplateColumns: ["1fr", "1fr", "1fr 1fr 1fr"],
             }}
           >
             <SectionOneTile

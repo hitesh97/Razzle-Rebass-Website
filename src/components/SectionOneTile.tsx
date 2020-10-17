@@ -17,6 +17,7 @@ class SectionOneTile extends React.Component<SectionOneTileProps, {}> {
           gridArea: this.props.gridArea,
           minHeight: "312px",
           paddingLeft: "30px",
+          minWidth: "335px",
         }}
       >
         <Box sx={{ color: "defaultBG", marginTop: "40px" }}>

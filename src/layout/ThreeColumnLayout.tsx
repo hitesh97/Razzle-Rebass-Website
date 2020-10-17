@@ -1,5 +1,16 @@
 import React from "react";
 import { Box, Flex } from "rebass";
+import SectionEight from "../components/SectionEight";
+import SectionFive from "../components/SectionFive";
+import SectionFour from "../components/SectionFour";
+import SectionOne from "../components/SectionOne";
+import SectionSeven from "../components/SectionSeven";
+import SectionSix from "../components/SectionSix";
+import SectionThree from "../components/SectionThree";
+import SectionTwo from "../components/SectionTwo";
+import TopHeroSection from "../components/TopHeroSection";
+import SiteFooter from "./SiteFooter";
+import SiteHeader from "./SiteHeader";
 
 class ThreeColumnLayout extends React.Component<{}, {}> {
   public render() {
@@ -10,7 +21,9 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
           minHeight: "100vh",
         }}
       >
-        <Box>Header</Box>
+        <Box>
+          <SiteHeader />
+        </Box>
         <Flex
           sx={{
             flex: 1,
@@ -23,7 +36,15 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
               minWidth: 0,
             }}
           >
-            Main Content
+            <TopHeroSection />
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+            <SectionFour />
+            <SectionFive />
+            <SectionSix />
+            <SectionSeven />
+            <SectionEight />
           </Box>
           <Box
             sx={{
@@ -31,17 +52,19 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
               order: -1,
             }}
           >
-            Nav
+            {/* Nav */}
           </Box>
           <Box
             sx={{
               flexBasis: ["auto", 64],
             }}
           >
-            Ads
+            {/* Ads */}
           </Box>
         </Flex>
-        <Box>Footer</Box>
+        <Box>
+          <SiteFooter />
+        </Box>
       </Flex>
     );
   }
