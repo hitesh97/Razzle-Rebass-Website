@@ -30,6 +30,7 @@ class SiteHeader extends React.Component<{}, {}> {
               listStyle: "none",
               fontSize: "1.2rem",
               flexWrap: "inherit",
+              padding: "0px",
             }}
           >
             <li style={{ marginLeft: "15px" }}>

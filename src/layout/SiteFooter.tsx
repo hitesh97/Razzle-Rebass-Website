@@ -1,5 +1,9 @@
 import React from "react";
-import { Box, Flex } from "rebass";
+import { Box, Flex, Text } from "rebass";
+import SiteFooterContactUs from "../components/SiteFooterContactUs";
+import SiteFooterMenu from "../components/SiteFooterMenu";
+import SiteFooterSocial from "../components/SiteFooterSocial";
+import SiteHeader from "./SiteHeader";
 
 class SiteFooter extends React.Component<{}, {}> {
   public render() {
@@ -12,30 +16,28 @@ class SiteFooter extends React.Component<{}, {}> {
           gridGap: 1,
           gridTemplateColumns: [
             "repeat(1, 1fr)",
-            "repeat(1, 0.25fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 0.25fr)",
+            "repeat(1, 0.25fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 0.25fr)",
           ],
           p: 2,
+          minHeight: "300px",
         }}
       >
         <Box sx={{}}></Box>
         <Box sx={{}}>
-          Tile 1
-          <br />
-          Tile 2
-          <br />
-          Tile 3
-          <br />
-          Tile 4
-          <br />
-          Tile 5
-          <br />
-          Tile 6
-          <br />
-          Tile 7
-          <br />
-          Tile 8
+          <Box sx={{ maxWidth: "400px", textAlign: "center" }}>
+            <SiteFooterMenu />
+          </Box>
         </Box>
-        <Box sx={{}}>Tile 9</Box>
+        <Box sx={{}}>
+          <Box sx={{ maxWidth: "400px", textAlign: "center" }}>
+            <SiteFooterContactUs />
+          </Box>
+        </Box>
+        <Box sx={{}}>
+          <Box sx={{ maxWidth: "400px", textAlign: "center" }}>
+            <SiteFooterSocial />
+          </Box>
+        </Box>
         <Box sx={{}}></Box>
         {/* <Box></Box>
         <Box>
