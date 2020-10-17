@@ -15,6 +15,7 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
           backgroundPosition: "50% 100%",
           minHeight: "600px",
           objectFit: "cover",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <Flex
@@ -42,6 +43,8 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
                 backgroundColor: "defaultBG",
                 marginLeft: "20px",
                 marginRight: "60px",
+                minWidth: "300px",
+                padding: "20px",
               }}
             >
               <Box sx={{ paddingLeft: "30px" }}>
