@@ -10,7 +10,6 @@ class SectionFourTile1 extends React.Component<SectionFourTile1Props, {}> {
     return (
       <Box
         sx={{
-          backgroundColor: "defaultBGLight",
           height: "100%",
         }}
       >

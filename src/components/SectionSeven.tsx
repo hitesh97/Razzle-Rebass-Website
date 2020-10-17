@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Image, Card, Heading, Text } from "rebass";
+import SectionFourTile1 from "./SectionFourTile1";
 
 class SectionSeven extends React.Component<{}, {}> {
   public render() {
@@ -43,27 +44,42 @@ class SectionSeven extends React.Component<{}, {}> {
               marginRight: "auto",
             }}
           ></Box>
-          <Text
-            as="p"
+          <Box
             sx={{
-              fontWeight: "300",
-              fontSize: "1.25rem",
-              marginTop: "30px",
-              maxWidth: "1200px",
-              marginLeft: "auto",
-              marginRight: "auto",
+              backgroundColor: "white",
+              display: "grid",
+              gridGap: 1,
+              gridTemplateColumns: ["repeat(1, 1fr)", "repeat(3, 1fr)"],
             }}
           >
-            We approach every project with the same energy and enthusiasm,
-            providing our clients with a personal one-on-one service, a unique
-            design solution and a strong, well-defined brand. Our website had
-            gotten quite dated and was not performing on handheld devices. We
-            pride ourselves on being progressive innovative advisers and it’s
-            very important our website reflects that. Having worked with
-            previous designers flexibility and responsiveness were key
-            characteristics we were looking for as well as a strong creative
-            flair.
-          </Text>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile1_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile2_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile3_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile4_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile5_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile6_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile7_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile8_img.jpeg" />
+            </Box>
+            <Box sx={{}}>
+              <SectionFourTile1 imgUrl="section7_tile9_img.jpeg" />
+            </Box>
+          </Box>
         </Box>
       </Box>
     );
