@@ -3,9 +3,9 @@ import { Box, Flex, Button, Text } from "rebass";
 import SectionTwoTile1 from "./SectionTwoTile1";
 import SectionFourTile1 from "./SectionFourTile1";
 
-interface SectionFourProps {}
+interface SectionSixProps {}
 
-class SectionFour extends React.Component<SectionFourProps, {}> {
+class SectionSix extends React.Component<SectionSixProps, {}> {
   public render() {
     return (
       <Flex
@@ -22,26 +22,19 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
             minHeight: "450px",
           }}
         >
-          <SectionFourTile1 imgUrl="section4_tile1_img.jpeg" />
-        </Box>
-        <Box
-          sx={{
-            flexGrow: 1,
-            flexBasis: 512,
-            minHeight: "450px",
-          }}
-        >
           <SectionTwoTile1
             tileIcon={null}
-            tileSubTitle="WORKING TOGETHER"
-            tileHeading="What Can We Do For You?"
+            tileSubTitle="MISSION"
+            tileHeading="We Design Websites That Work"
             tileContent={
               <>
                 <p style={{ fontSize: "1.1rem", marginTop: "40px" }}>
-                  We can build you a new website from scratch. Most likely it
-                  will be Wordpress-based. We will also take care of the domain
-                  registration for you and and will host and support your site
-                  after the development.
+                  Our passion, excellent listening skills and personalised touch
+                  help build a strong and unique rapport with our clients. This
+                  enables us to interpret the client’s vision from first meeting
+                  and ensures the client’s requirements are reflected in every
+                  stage of the graphic and web design process, always exceeding
+                  expectations.
                 </p>
                 <Button
                   variant="outline"
@@ -58,6 +51,15 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
               </>
             }
           />
+        </Box>
+        <Box
+          sx={{
+            flexGrow: 1,
+            flexBasis: 512,
+            minHeight: "450px",
+          }}
+        >
+          <SectionFourTile1 imgUrl="section6_tile2_img.jpeg" />
         </Box>
       </Flex>
     );
@@ -94,7 +96,7 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
               alignSelf: "stretch",
             }}
           >
-            <SectionFourTile1
+            <SectionSixTile1
               gridArea="leftMain"
               tileIcon={<FaRegPaperPlane size="44" />}
               tileHeading="Branding"
@@ -108,7 +110,7 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
               }
             />
 
-            <SectionFourTile2
+            <SectionSixTile2
               gridArea="centerMain"
               tileIcon={<FaPalette size="44" />}
               tileHeading="Graphic Design"
@@ -138,4 +140,4 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
   }
 }
 
-export default SectionFour;
+export default SectionSix;

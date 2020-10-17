@@ -5,6 +5,8 @@ import FullWidthArticleContentLeft from "../components/FullWidthArticleContentLe
 import SectionFive from "../components/SectionFive";
 import SectionFour from "../components/SectionFour";
 import SectionOne from "../components/SectionOne";
+import SectionSeven from "../components/SectionSeven";
+import SectionSix from "../components/SectionSix";
 import SectionThree from "../components/SectionThree";
 import SectionTwo from "../components/SectionTwo";
 import TopHeroSection from "../components/TopHeroSection";
@@ -119,6 +121,8 @@ class StickyFooterLayout extends React.Component<{}, {}> {
           <SectionThree />
           <SectionFour />
           <SectionFive />
+          <SectionSix />
+          <SectionSeven />
         </Box>
         <Box sx={{}}>
           <SiteFooter />

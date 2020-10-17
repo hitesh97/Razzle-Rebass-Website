@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Image, Card, Heading, Text } from "rebass";
 
-class SectionFive extends React.Component<{}, {}> {
+class SectionSeven extends React.Component<{}, {}> {
   public render() {
     return (
       <Box
@@ -25,11 +25,11 @@ class SectionFive extends React.Component<{}, {}> {
               marginTop: "0px",
               marginLeft: "auto",
               marginRight: "auto",
-              maxWidth: "1000px",
+              maxWidth: "700px",
             }}
           >
-            It’s The Unique Ideas And The Passionate People Behind Them That
-            Inspire Us To Create Engaging Design.
+            We Specialise In Branding, Graphic Design, Web Design & Art
+            Direction.
           </Text>
           <Box
             sx={{
@@ -70,4 +70,4 @@ class SectionFive extends React.Component<{}, {}> {
   }
 }
 
-export default SectionFive;
+export default SectionSeven;
