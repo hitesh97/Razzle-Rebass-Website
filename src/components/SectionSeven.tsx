@@ -52,31 +52,31 @@ class SectionSeven extends React.Component<{}, {}> {
               gridTemplateColumns: ["repeat(1, 1fr)", "repeat(3, 1fr)"],
             }}
           >
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile1_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile2_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile3_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile4_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile5_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile6_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile7_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile8_img.jpeg" />
             </Box>
-            <Box sx={{}}>
+            <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile9_img.jpeg" />
             </Box>
           </Box>

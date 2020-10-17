@@ -28,31 +28,30 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
           <Box
             sx={{
               flexGrow: 1,
+              flexBasis: 612,
             }}
           ></Box>
           <Box
             sx={{
               flexGrow: 1,
-              flexBasis: 0,
               textAlign: "left",
             }}
           >
             <Box
               sx={{
                 minHeight: "300px",
+                width: "520px",
                 backgroundColor: "defaultBG",
                 marginLeft: "20px",
                 marginRight: "60px",
                 minWidth: "300px",
-                padding: "20px",
+                padding: "30px",
               }}
             >
               <Box sx={{ paddingLeft: "30px" }}>
                 <Text
                   as="h1"
                   sx={{
-                    marginTop: "20px",
-                    paddingTop: "40px",
                     fontSize: "3.75rem",
                     fontWeight: "300",
                   }}

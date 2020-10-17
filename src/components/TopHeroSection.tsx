@@ -8,7 +8,7 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
     return (
       <Box
         sx={{
-          backgroundImage: "url(/Top_Hero_img.jpeg)",
+          backgroundImage: "url(Top_Hero_img.jpeg)",
           backgroundSize: "",
           color: "white",
           bg: "gray",
@@ -27,13 +27,12 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
           <Box
             sx={{
               flexGrow: 1,
-              flexBasis: 450,
+              flexBasis: 612,
             }}
           ></Box>
           <Box
             sx={{
               flexGrow: 1,
-              flexBasis: 0,
               textAlign: "left",
             }}
           >
