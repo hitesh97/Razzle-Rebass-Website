@@ -14,8 +14,10 @@ class Services extends React.Component<ServicesProps, {}> {
       <>
         <WebDesign />
         <WebDesignHeader />
+
         <WebDevelopment />
         <EcommerceHeader />
+
         <Ecommerce />
       </>
     );

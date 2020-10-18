@@ -22,26 +22,30 @@ class SectionTwoTile1 extends React.Component<SectionTwoTile1Props, {}> {
         {this.props.tileIcon && (
           <Box sx={{ color: "defaultBG" }}>{this.props.tileIcon}</Box>
         )}
-        <Text
-          as="h4"
-          sx={{
-            fontWeight: "300",
-            fontSize: "1rem",
-            marginTop: "40px",
-          }}
-        >
-          {this.props.tileSubTitle}
-        </Text>
-        <Text
-          as="h3"
-          sx={{
-            fontWeight: "300",
-            fontSize: "2.5rem",
-            marginTop: "15px",
-          }}
-        >
-          {this.props.tileHeading}
-        </Text>
+        {this.props.tileSubTitle && (
+          <Text
+            as="h4"
+            sx={{
+              fontWeight: "300",
+              fontSize: "1rem",
+              marginTop: "40px",
+            }}
+          >
+            {this.props.tileSubTitle}
+          </Text>
+        )}
+        {this.props.tileHeading && (
+          <Text
+            as="h3"
+            sx={{
+              fontWeight: "300",
+              fontSize: "2.5rem",
+              marginTop: "15px",
+            }}
+          >
+            {this.props.tileHeading}
+          </Text>
+        )}
         {this.props.tileContent}
       </Box>
     );

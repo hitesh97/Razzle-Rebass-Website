@@ -48,7 +48,7 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
             tileSubTitle=""
             tileHeading=""
             tileContent={
-              <Box style={{ fontSize: "1.5rem", marginTop: "40px" }}>
+              <Box style={{ fontSize: "1.5rem" }}>
                 <p>
                   Due to the breadth of our technology expertise, we leverage
                   the right tools and platforms to build web applications that

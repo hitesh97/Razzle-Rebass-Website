@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Button, Text } from "rebass";
+import { Box, Flex, Button, Text, Image } from "rebass";
 import { FaPalette, FaRegPaperPlane } from "react-icons/fa";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
 import SectionTwoTile2 from "../home/SectionTwoTile2";
@@ -52,7 +52,7 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
             tileSubTitle=""
             tileHeading=""
             tileContent={
-              <Box style={{ fontSize: "1.5rem", marginTop: "40px" }}>
+              <Box style={{ fontSize: "1.5rem" }}>
                 <p>
                   Sound design principles and interaction design characterize
                   today’s web. It is a combination of aesthetics, usability, and

@@ -54,7 +54,7 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
             tileSubTitle=""
             tileHeading=""
             tileContent={
-              <Box style={{ fontSize: "1.5rem", marginTop: "40px" }}>
+              <Box style={{ fontSize: "1.5rem" }}>
                 <p>
                   We specialize in developing strategic customer-centric
                   shopping solutions that deliver measurable business results.
