@@ -31,6 +31,7 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
               flexWrap: "inherit",
               padding: "0px",
               textAlign: "left",
+              lineHeight: "1.5rem",
             }}
           >
             <li style={{}}>
@@ -53,23 +54,23 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
             <li style={{}}>
               <FaHome size="20" style={{ marginRight: "20px" }} />
               Address
-              <ol style={{ listStyle: "none" }}>
+              <ol style={{ listStyle: "none", marginTop: "5px" }}>
                 {SiteConfig.address.line1 && (
+                  <li>{SiteConfig.address.line1}</li>
+                )}
+                {SiteConfig.address.line2 && (
                   <li>
-                    {SiteConfig.address.line1}
-                    {SiteConfig.address.line2 &&
-                      `, ${SiteConfig.address.line2}`}
+                    {SiteConfig.address.line2}
+                    {SiteConfig.address.line3 &&
+                      `, ${SiteConfig.address.line3}`}
                   </li>
                 )}
-                {SiteConfig.address.line3 && (
+                {SiteConfig.address.state && (
                   <li>
-                    {SiteConfig.address.line3}
-                    {SiteConfig.address.state &&
-                      `, ${SiteConfig.address.state}`}
+                    {SiteConfig.address.state}
+                    {SiteConfig.address.country &&
+                      `, ${SiteConfig.address.country}`}
                   </li>
-                )}
-                {SiteConfig.address.country && (
-                  <li>{SiteConfig.address.country}</li>
                 )}
               </ol>
             </li>
