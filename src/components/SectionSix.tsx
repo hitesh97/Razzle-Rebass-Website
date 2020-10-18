@@ -43,8 +43,9 @@ class SectionSix extends React.Component<SectionSixProps, {}> {
                     backgroundColor: "defaultBG",
                     color: "white",
                     fontWeight: "300",
-                    fontFamily: "'PT Sans', system-ui, sans-serif",
                   }}
+                  href="/webdesign"
+                  as="a"
                 >
                   LEARN MORE
                 </Button>

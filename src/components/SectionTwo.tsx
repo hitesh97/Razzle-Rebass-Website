@@ -43,8 +43,9 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
                     backgroundColor: "defaultBG",
                     color: "white",
                     fontWeight: "300",
-                    fontFamily: "'PT Sans', system-ui, sans-serif",
                   }}
+                  href="/howwework"
+                  as="a"
                 >
                   LEARN MORE
                 </Button>

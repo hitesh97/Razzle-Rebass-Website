@@ -44,8 +44,9 @@ class SectionThree extends React.Component<{}, {}> {
               tileImgUrl="/section3_tile1_img.jpeg"
               tileContent={
                 <p>
-                  Quisque faucibus lacus in consequat ornare proin tincidunt,
-                  antesed condimentum congue.
+                  We are extremely comfortable with almost all leading eCommerce
+                  platforms, services, and tools. This comfort ensures that your
+                  go-to-market time is always optimum.
                 </p>
               }
             />
@@ -56,8 +57,9 @@ class SectionThree extends React.Component<{}, {}> {
               tileImgUrl="/section3_tile2_img.jpeg"
               tileContent={
                 <p>
-                  Quisque faucibus lacus in consequat ornare proin tincidunt,
-                  antesed condimentum congue.
+                  We help you make decisions for technology choices so you can
+                  move quickly in the market. Our are cloud first thinking
+                  allows you to scale out and scale up effortlessly.
                 </p>
               }
             />
@@ -68,8 +70,10 @@ class SectionThree extends React.Component<{}, {}> {
               tileImgUrl="/section3_tile3_img.jpeg"
               tileContent={
                 <p>
-                  Quisque faucibus lacus in consequat ornare proin tincidunt,
-                  antesed condimentum congue.
+                  We are always learning new technologies as they evolve and
+                  employ best of the breed technology. Our team members are
+                  always innovating and brining new and fresh ideas to the
+                  table.
                 </p>
               }
             />

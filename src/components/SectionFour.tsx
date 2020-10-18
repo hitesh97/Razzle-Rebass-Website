@@ -50,8 +50,9 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
                     backgroundColor: "defaultBG",
                     color: "white",
                     fontWeight: "300",
-                    fontFamily: "'PT Sans', system-ui, sans-serif",
                   }}
+                  href="/worktogether"
+                  as="a"
                 >
                   LEARN MORE
                 </Button>
