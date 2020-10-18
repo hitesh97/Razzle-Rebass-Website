@@ -64,7 +64,7 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
             <SectionOneTile
               gridArea="rightMain"
               tileIcon={<FaPencilRuler size="44" />}
-              tileHeading="Web Design"
+              tileHeading="Web Development"
               tileContent={
                 <ul style={{ listStyle: "circle" }}>
                   <li>Front & Back-end</li>
