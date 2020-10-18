@@ -37,7 +37,7 @@ class SiteFooterSocial extends React.Component<{}, {}> {
               textAlign: "left",
             }}
           >
-            <li style={{ marginLeft: "15px" }}>
+            <li style={{}}>
               <FaFacebookSquare size="30" style={{ marginRight: "20px" }} />
               <FaLinkedinIn size="30" style={{ marginRight: "20px" }} />
               <FaTwitterSquare size="30" style={{ marginRight: "20px" }} />

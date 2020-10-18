@@ -18,8 +18,8 @@ class SiteFooter extends React.Component<{}, {}> {
             "repeat(1, 1fr)",
             "repeat(1, 0.25fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 1fr) repeat(1, 0.25fr)",
           ],
-          p: 2,
-          minHeight: "300px",
+          p: 4,
+          minHeight: "275px",
         }}
       >
         <Box sx={{}}></Box>

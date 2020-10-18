@@ -31,13 +31,13 @@ class SiteFooterMenu extends React.Component<{}, {}> {
               padding: "0px",
             }}
           >
-            <li style={{ marginLeft: "15px" }}>HOME</li>
-            <li style={{ marginLeft: "15px" }}>SERVICES</li>
-            <li style={{ marginLeft: "15px" }}>TECHNOLOGIES</li>
-            <li style={{ marginLeft: "15px" }}>INDUSTRIES</li>
-            <li style={{ marginLeft: "15px" }}>PORTFOLIO</li>
-            <li style={{ marginLeft: "15px" }}>COMPANY</li>
-            <li style={{ marginLeft: "15px" }}>CONTACT</li>
+            <li style={{}}>HOME</li>
+            <li style={{}}>SERVICES</li>
+            <li style={{}}>TECHNOLOGIES</li>
+            <li style={{}}>INDUSTRIES</li>
+            <li style={{}}>PORTFOLIO</li>
+            <li style={{}}>COMPANY</li>
+            <li style={{}}>CONTACT</li>
           </ul>
         </Box>
       </Flex>

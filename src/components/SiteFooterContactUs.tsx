@@ -32,19 +32,19 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
               textAlign: "left",
             }}
           >
-            <li style={{ marginLeft: "15px" }}>
+            <li style={{}}>
               <FaEnvelope size="20" style={{ marginRight: "20px" }} />
               GET IN TOUCH
             </li>
-            <li style={{ marginLeft: "15px" }}>
+            <li style={{}}>
               <FaWhatsapp size="20" style={{ marginRight: "20px" }} />
               SCHEDULE A MEETING
             </li>
-            <li style={{ marginLeft: "15px" }}>
+            <li style={{}}>
               <FaPhone size="20" style={{ marginRight: "20px" }} />
               PHONE: XXX-XXX-XXX
             </li>
-            <li style={{ marginLeft: "15px" }}>
+            <li style={{}}>
               <FaHome size="20" style={{ marginRight: "20px" }} /> Address :
             </li>
           </ul>
