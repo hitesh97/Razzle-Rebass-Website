@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Link } from "rebass";
-
+import MenuItems from "../data/menu";
 class SiteFooterMenu extends React.Component<{}, {}> {
   public render() {
     return (
@@ -32,41 +32,13 @@ class SiteFooterMenu extends React.Component<{}, {}> {
               lineHeight: "1.5rem",
             }}
           >
-            <li style={{}}>
-              <Link href="/" sx={{ color: "white" }}>
-                HOME
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/service" sx={{ color: "white" }}>
-                SERVICES
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/technologies" sx={{ color: "white" }}>
-                TECHNOLOGIES
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/industries" sx={{ color: "white" }}>
-                INDUSTRIES
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/portfolio" sx={{ color: "white" }}>
-                PORTFOLIO
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/company" sx={{ color: "white" }}>
-                COMPANY
-              </Link>
-            </li>
-            <li style={{}}>
-              <Link href="/contact" sx={{ color: "white" }}>
-                CONTACT
-              </Link>
-            </li>
+            {MenuItems.filter((item) => item.enabled).map((item) => (
+              <li style={{}}>
+                <Link key={item.id} href={item.href} sx={{ color: "white" }}>
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </Box>
       </Flex>

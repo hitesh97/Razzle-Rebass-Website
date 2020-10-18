@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Link } from "rebass";
+import MenuItems from "../data/menu";
 
 class SiteHeader extends React.Component<{}, {}> {
   public render() {
@@ -33,27 +34,13 @@ class SiteHeader extends React.Component<{}, {}> {
               padding: "0px",
             }}
           >
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/">HOME</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/services">SERVICES</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/technologies">TECHNOLOGIES</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/industries">INDUSTRIES</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/portfolio">PORTFOLIO</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/company">COMPANY</Link>
-            </li>
-            <li style={{ marginLeft: "15px" }}>
-              <Link href="/contact">CONTACT</Link>
-            </li>
+            {MenuItems.filter((item) => item.enabled).map((item) => (
+              <li style={{ marginLeft: "15px" }}>
+                <Link key={item.id} href={item.href}>
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </Box>
       </Flex>
