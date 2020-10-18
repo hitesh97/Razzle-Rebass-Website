@@ -34,25 +34,25 @@ class SiteHeader extends React.Component<{}, {}> {
             }}
           >
             <li style={{ marginLeft: "15px" }}>
-              <Link>HOME</Link>
+              <Link href="/">HOME</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>SERVICES</Link>
+              <Link href="/services">SERVICES</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>TECHNOLOGIES</Link>
+              <Link href="/technologies">TECHNOLOGIES</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>INDUSTRIES</Link>
+              <Link href="/industries">INDUSTRIES</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>PORTFOLIO</Link>
+              <Link href="/portfolio">PORTFOLIO</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>COMPANY</Link>
+              <Link href="/company">COMPANY</Link>
             </li>
             <li style={{ marginLeft: "15px" }}>
-              <Link>CONTACT</Link>
+              <Link href="/contact">CONTACT</Link>
             </li>
           </ul>
         </Box>
