@@ -1,13 +1,24 @@
 import React from "react";
-import { Box, Flex, Button, Text } from "rebass";
-import { FaPalette, FaPencilRuler, FaRegPaperPlane } from "react-icons/fa";
-import SectionOneTile from "./SectionOneTile";
+import SectionOne from "../components/home/SectionOne";
+import Ecommerce from "../components/services/Ecommerce";
+import EcommerceHeader from "../components/services/EcommerceHeader";
+import WebDesign from "../components/services/WebDesign";
+import WebDesignHeader from "../components/services/WebDesignHeader";
+import WebDevelopment from "../components/services/WebDevelopment";
 
 interface ServicesProps {}
 
 class Services extends React.Component<ServicesProps, {}> {
   public render() {
-    return "services";
+    return (
+      <>
+        <WebDesign />
+        <WebDesignHeader />
+        <WebDevelopment />
+        <EcommerceHeader />
+        <Ecommerce />
+      </>
+    );
   }
 }
 

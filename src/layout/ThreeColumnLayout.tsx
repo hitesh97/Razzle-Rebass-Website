@@ -1,14 +1,14 @@
 import React from "react";
 import { Box, Flex } from "rebass";
-import SectionEight from "../components/SectionEight";
-import SectionFive from "../components/SectionFive";
-import SectionFour from "../components/SectionFour";
-import SectionOne from "../components/SectionOne";
-import SectionSeven from "../components/SectionSeven";
-import SectionSix from "../components/SectionSix";
-import SectionThree from "../components/SectionThree";
-import SectionTwo from "../components/SectionTwo";
-import TopHeroSection from "../components/TopHeroSection";
+import SectionEight from "../components/home/SectionEight";
+import SectionFive from "../components/home/SectionFive";
+import SectionFour from "../components/home/SectionFour";
+import SectionOne from "../components/home/SectionOne";
+import SectionSeven from "../components/home/SectionSeven";
+import SectionSix from "../components/home/SectionSix";
+import SectionThree from "../components/home/SectionThree";
+import SectionTwo from "../components/home/SectionTwo";
+import TopHeroSection from "../components/home/TopHeroSection";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 
