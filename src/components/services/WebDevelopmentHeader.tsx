@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
-import { FaPalette, FaRegPaperPlane } from "react-icons/fa";
-import SectionTwoTile1 from "../home/SectionTwoTile1";
-import SectionTwoTile2 from "../home/SectionTwoTile2";
 
-interface WebDesignHeaderProps {}
+interface WebDevelopmentHeaderProps {}
 
-class WebDesignHeader extends React.Component<WebDesignHeaderProps, {}> {
+class WebDevelopmentHeader extends React.Component<
+  WebDevelopmentHeaderProps,
+  {}
+> {
   public render() {
     return (
       <Flex
@@ -24,7 +24,7 @@ class WebDesignHeader extends React.Component<WebDesignHeaderProps, {}> {
             textAlign: "right",
           }}
         >
-          <Image src="website_setup.svg" style={{ maxHeight: "320px" }} />
+          <Image src="web_development.svg" style={{ maxHeight: "320px" }} />
         </Box>
         <Box
           sx={{
@@ -37,11 +37,11 @@ class WebDesignHeader extends React.Component<WebDesignHeaderProps, {}> {
             padding: "20px",
           }}
         >
-          <Image src="wireframing.svg" style={{ maxHeight: "320px" }} />
+          <Image src="web_developer.svg" style={{ maxHeight: "320px" }} />
         </Box>
       </Flex>
     );
   }
 }
 
-export default WebDesignHeader;
+export default WebDevelopmentHeader;

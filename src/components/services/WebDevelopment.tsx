@@ -10,8 +10,7 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
       <Flex
         sx={{
           flexWrap: "wrap",
-          backgroundColor: "black",
-          color: "white",
+          color: "defaultBG",
         }}
       >
         <Box
@@ -23,6 +22,7 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="WEB DEVELOPMENT"
@@ -44,12 +44,13 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p>
+                <p style={{ marginTop: "15px" }}>
                   Due to the breadth of our technology expertise, we leverage
                   the right tools and platforms to build web applications that
                   perform optimally no matter what the load is, are scalable,

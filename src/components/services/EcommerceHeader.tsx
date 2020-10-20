@@ -19,6 +19,8 @@ class EcommerceHeader extends React.Component<EcommerceHeaderProps, {}> {
             flexBasis: 512,
             margin: "20px",
             padding: "20px",
+
+            textAlign: "right",
           }}
         >
           <Image src="web_shopping.svg" style={{ maxHeight: "320px" }} />
@@ -26,10 +28,10 @@ class EcommerceHeader extends React.Component<EcommerceHeaderProps, {}> {
         <Box
           sx={{
             flexGrow: 1,
-            flexBasis: 512,
+            flexBasis: 512 /* 
             borderLeftStyle: "solid",
             borderWidth: "1px",
-            borderLeftColor: "black",
+            borderLeftColor: "black", */,
             margin: "20px",
             padding: "20px",
           }}

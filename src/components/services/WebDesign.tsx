@@ -12,8 +12,7 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
       <Flex
         sx={{
           flexWrap: "wrap",
-          backgroundColor: "black",
-          color: "white",
+          color: "defaultBG",
         }}
       >
         <Box
@@ -25,6 +24,7 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="WEB DESIGN"
@@ -48,12 +48,13 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p>
+                <p style={{ marginTop: "15px" }}>
                   Sound design principles and interaction design characterize
                   today’s web. It is a combination of aesthetics, usability, and
                   responsiveness. The designs today are not only utilitarian but

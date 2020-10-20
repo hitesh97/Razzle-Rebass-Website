@@ -7,6 +7,7 @@ interface SectionTwoTile1Props {
   tileSubTitle: string;
   tileHeading: string;
   tileContent: React.ReactNode;
+  backgroundColor?: string;
 }
 
 class SectionTwoTile1 extends React.Component<SectionTwoTile1Props, {}> {
@@ -14,7 +15,7 @@ class SectionTwoTile1 extends React.Component<SectionTwoTile1Props, {}> {
     return (
       <Box
         sx={{
-          backgroundColor: "defaultBG",
+          backgroundColor: this.props.backgroundColor || "defaultBG",
           padding: "60px",
           height: "100%",
         }}

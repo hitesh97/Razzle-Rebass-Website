@@ -10,8 +10,7 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
       <Flex
         sx={{
           flexWrap: "wrap",
-          backgroundColor: "black",
-          color: "white",
+          color: "defaultBG",
         }}
       >
         <Box
@@ -23,6 +22,7 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="ECommerce"
@@ -50,12 +50,13 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
           }}
         >
           <SectionTwoTile1
+            backgroundColor="white"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p>
+                <p style={{ marginTop: "15px" }}>
                   We specialize in developing strategic customer-centric
                   shopping solutions that deliver measurable business results.
                   Our eCommerce consultants help clients build engaging digital
