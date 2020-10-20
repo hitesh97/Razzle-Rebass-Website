@@ -1,5 +1,4 @@
 import React from "react";
-import SectionOne from "../components/home/SectionOne";
 import Ecommerce from "../components/services/Ecommerce";
 import EcommerceHeader from "../components/services/EcommerceHeader";
 import ServicesHero from "../components/services/ServicesHero";
