@@ -22,12 +22,18 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="ECommerce"
             tileContent={
-              <ul style={{ lineHeight: "2.5rem", listStyle: "none" }}>
+              <ul
+                style={{
+                  fontSize: "1.2rem",
+                  lineHeight: "2.5rem",
+                  listStyle: "none",
+                }}
+              >
                 <li>EXPERIENCE IN ALL LEADING ECOMMERCE SOLUTIONS</li>
                 <li>(SHOPIFY, WOOCOMMERCE, WAGTAIL, AND OTHERS)</li>
                 <li>
@@ -50,7 +56,7 @@ class Ecommerce extends React.Component<EcommerceProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""

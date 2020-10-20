@@ -10,6 +10,7 @@ const siteTheme = {
     defaultBG: "#035449",
     defaultBGLight: "#1f635a",
     sectionThreeBG: "#f2f2f2",
+    servicesPageBG: "white",
   },
   fonts: {
     body: "system-ui, sans-serif",

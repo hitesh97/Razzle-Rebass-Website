@@ -30,9 +30,6 @@ class WebDesignHeader extends React.Component<WebDesignHeaderProps, {}> {
           sx={{
             flexGrow: 1,
             flexBasis: 512,
-            /* borderLeftStyle: "solid",
-            borderWidth: "1px",
-            borderLeftColor: "black", */
             margin: "20px",
             padding: "20px",
           }}

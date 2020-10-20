@@ -22,12 +22,18 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="WEB DEVELOPMENT"
             tileContent={
-              <ul style={{ lineHeight: "2.5rem", listStyle: "none" }}>
+              <ul
+                style={{
+                  fontSize: "1.2rem",
+                  lineHeight: "2.5rem",
+                  listStyle: "none",
+                }}
+              >
                 <li>CROSS-BROWSER WEBSITE AND APPLICATION</li>
                 <li>CUSTOM APPLICATIONS DEVELOPMENT</li>
                 <li>ENTERPRISE WEB DEVELOPMENT</li>
@@ -44,7 +50,7 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""

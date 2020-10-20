@@ -28,10 +28,7 @@ class EcommerceHeader extends React.Component<EcommerceHeaderProps, {}> {
         <Box
           sx={{
             flexGrow: 1,
-            flexBasis: 512 /* 
-            borderLeftStyle: "solid",
-            borderWidth: "1px",
-            borderLeftColor: "black", */,
+            flexBasis: 512,
             margin: "20px",
             padding: "20px",
           }}

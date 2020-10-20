@@ -12,7 +12,7 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
       <Flex
         sx={{
           flexWrap: "wrap",
-          backgroundColor: "white",
+          backgroundColor: "servicesPageBG",
           color: "defaultBG",
         }}
       >
@@ -28,7 +28,7 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
             <Text as="h1" sx={{ fontSize: "2.5rem", fontWeight: "300" }}>
               Leverage technology for strategic achievements
             </Text>
-            <Text as="h4" sx={{ fontSize: "1.5rem", fontWeight: "300" }}>
+            <Text as="h4" sx={{ fontSize: "1.25rem", fontWeight: "300" }}>
               THROUGH TRANSPARENT AND QUICK DELIVERY
             </Text>
             <p style={{ marginTop: "15px" }}>

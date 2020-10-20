@@ -24,12 +24,18 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading="WEB DESIGN"
             tileContent={
-              <ul style={{ lineHeight: "2.5rem", listStyle: "none" }}>
+              <ul
+                style={{
+                  fontSize: "1.2rem",
+                  lineHeight: "2.5rem",
+                  listStyle: "none",
+                }}
+              >
                 <li>RESPONSIVE DESIGNS WITH A MOBILE-FIRST APPROACH</li>
                 <li>
                   PROPAGATES THE VALUES THAT YOUR BRAND STANDS FOR DISTINCTIVE,
@@ -48,7 +54,7 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
           }}
         >
           <SectionTwoTile1
-            backgroundColor="white"
+            backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
             tileHeading=""
