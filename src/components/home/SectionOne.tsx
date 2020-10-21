@@ -36,6 +36,20 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
           >
             <SectionOneTile
               gridArea="leftMain"
+              tileIcon={<FaPencilRuler size="44" />}
+              tileHeading="Web Development"
+              tileContent={
+                <ul style={{ listStyle: "circle" }}>
+                  <li>Front & Back-end</li>
+                  <li>E-Commerce</li>
+                  <li>Content Management</li>
+                  <li>WordPress / HTML5 / CSS3</li>
+                  <li>ReactJs / AngularJs / VueJs / NextJs</li>
+                </ul>
+              }
+            />
+            <SectionOneTile
+              gridArea="rightMain"
               tileIcon={<FaRegPaperPlane size="44" />}
               tileHeading="Branding"
               tileContent={
@@ -58,19 +72,6 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
                   <li>Design</li>
                   <li>Art Direction</li>
                   <li>Signage & Environment</li>
-                </ul>
-              }
-            />
-            <SectionOneTile
-              gridArea="rightMain"
-              tileIcon={<FaPencilRuler size="44" />}
-              tileHeading="Web Development"
-              tileContent={
-                <ul style={{ listStyle: "circle" }}>
-                  <li>Front & Back-end</li>
-                  <li>E-Commerce</li>
-                  <li>Content Management</li>
-                  <li>WordPress / HTML5 / CSS3</li>
                 </ul>
               }
             />

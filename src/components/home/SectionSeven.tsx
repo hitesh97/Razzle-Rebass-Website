@@ -70,7 +70,7 @@ class SectionSeven extends React.Component<{}, {}> {
             <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile6_img.jpeg" />
             </Box>
-            <Box sx={{ maxHeight: "100%" }}>
+            {/* <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile7_img.jpeg" />
             </Box>
             <Box sx={{ maxHeight: "100%" }}>
@@ -78,7 +78,7 @@ class SectionSeven extends React.Component<{}, {}> {
             </Box>
             <Box sx={{ maxHeight: "100%" }}>
               <SectionFourTile1 imgUrl="section7_tile9_img.jpeg" />
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </Box>

@@ -18,7 +18,7 @@ class TechnologiesProcess extends React.Component<
     return (
       <Box
         sx={{
-          padding: "100px",
+          padding: "60px",
           paddingTop: "0px",
           color: "defaultBG",
         }}
