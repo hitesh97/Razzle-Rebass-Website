@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "PT Sans", system-ui, sans-serif;
+  font-family: /*iOS*/ "AvenirNextCondensed-Bold", "Futura-CondensedExtraBold",
+    /*MacOSX*/ HelveticaNeue-CondensedBold, /*Ubuntu*/ "Ubuntu Condensed",
+    "Liberation Sans Narrow", /*Windows*/ "Franklin Gothic Demi Cond",
+    "Arial Narrow", /*Android*/ sans-serif-condensed, /*Fallback*/ Arial,
+    "Trebuchet MS", "Lucida Grande", Tahoma, Verdana, sans-serif;
 }

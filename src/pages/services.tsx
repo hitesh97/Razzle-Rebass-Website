@@ -6,6 +6,8 @@ import WebDesign from "../components/services/WebDesign";
 import WebDesignHeader from "../components/services/WebDesignHeader";
 import WebDevelopment from "../components/services/WebDevelopment";
 import WebDevelopmentHeader from "../components/services/WebDevelopmentHeader";
+import MobileDevelopment from "../components/technologies/MobileDevelopment";
+import MobileDevelopmentHeader from "../components/technologies/MobileDevelopmentHeader";
 
 interface ServicesProps {}
 
@@ -20,6 +22,8 @@ class Services extends React.Component<ServicesProps, {}> {
         <WebDevelopment />
         <EcommerceHeader />
         <Ecommerce />
+        <MobileDevelopmentHeader />
+        <MobileDevelopment />
       </>
     );
   }

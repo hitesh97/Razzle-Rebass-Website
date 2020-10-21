@@ -3,7 +3,6 @@ import { Route, Switch, RouteProps, Link } from "react-router-dom";
 import Home from "./Home";
 import Services from "./pages/services";
 import StickyFooterLayout from "./layout/StickyFooterLayout";
-
 import "./App.css";
 import Technologies from "./pages/technologies";
 

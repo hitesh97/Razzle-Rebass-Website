@@ -25,7 +25,14 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
             <Text as="h1" sx={{ fontSize: "2.5rem", fontWeight: "300" }}>
               Leverage technology for strategic achievements
             </Text>
-            <Text as="h4" sx={{ fontSize: "1.25rem", fontWeight: "300" }}>
+            <Text
+              as="h4"
+              sx={{
+                fontSize: "1.25rem",
+                fontWeight: "300",
+                lineHeight: "3rem",
+              }}
+            >
               THROUGH TRANSPARENT AND QUICK DELIVERY
             </Text>
             <p style={{ marginTop: "15px" }}>
