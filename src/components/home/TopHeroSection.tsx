@@ -71,6 +71,8 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
                     fontWeight: "300",
                     fontFamily: "'PT Sans', system-ui, sans-serif",
                   }}
+                  as="a"
+                  href="about-us"
                 >
                   Find out more
                 </Button>

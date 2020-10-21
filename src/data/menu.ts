@@ -37,10 +37,10 @@ const MenuItems: Array<MenuItem> = [
   },
   {
     id: "6",
-    href: "/Company",
+    href: "/about-us",
     name: "COMPANY",
     description: "Company",
-    enabled: false,
+    enabled: true,
   },
   {
     id: "7",
