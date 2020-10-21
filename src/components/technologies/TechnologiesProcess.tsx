@@ -19,7 +19,6 @@ class TechnologiesProcess extends React.Component<
       <Box
         sx={{
           padding: "60px",
-          paddingTop: "0px",
           color: "defaultBG",
         }}
       >
@@ -34,7 +33,7 @@ class TechnologiesProcess extends React.Component<
             sx={{
               backgroundColor: "white",
               display: "grid",
-              gridGap: 3,
+              gridGap: 1,
               gridTemplateColumns: ["repeat(1, 1fr)", "repeat(2, 1fr)"],
             }}
           >
