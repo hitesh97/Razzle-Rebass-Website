@@ -5,6 +5,7 @@ import Services from "./pages/services";
 import StickyFooterLayout from "./layout/StickyFooterLayout";
 import "./App.css";
 import Technologies from "./pages/technologies";
+import ContactUs from "./pages/contactUs";
 
 interface PrivateRouteProps extends RouteProps {
   // tslint:disable-next-line:no-any
@@ -44,6 +45,12 @@ const App = () => (
       exact={true}
       path="/technologies"
       component={Technologies}
+      layout={StickyFooterLayout}
+    />
+    <RouteWrapper
+      exact={true}
+      path="/contact-us"
+      component={ContactUs}
       layout={StickyFooterLayout}
     />
     <RouteWrapper component={Home} layout={StickyFooterLayout} />

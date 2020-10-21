@@ -44,9 +44,9 @@ const MenuItems: Array<MenuItem> = [
   },
   {
     id: "7",
-    href: "/contact",
+    href: "/contact-us",
     name: "CONTACT",
-    description: "contact",
+    description: "contact us",
     enabled: true,
   },
 ];
