@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Image, Card, Heading, Text } from "rebass";
+import { Box, Flex, Image, Card, Heading, Text, Button } from "rebass";
 import { FaRegPaperPlane } from "react-icons/fa";
 import SectionOneTile from "./SectionOneTile";
 import SectionThreeTile from "./SectionThreeTile";
@@ -24,6 +24,19 @@ class SectionThree extends React.Component<{}, {}> {
           >
             We Embrace New Technologies
           </Text>
+          <Button
+            variant="outline"
+            sx={{
+              marginTop: "20px",
+              backgroundColor: "defaultBG",
+              color: "white",
+              fontWeight: "300",
+            }}
+            href="/technologies"
+            as="a"
+          >
+            LEARN MORE
+          </Button>
         </Box>
         <Box
           sx={{

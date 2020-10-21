@@ -26,6 +26,7 @@ class TechnologyBrands extends React.Component<TechnologyBrandsProps, {}> {
         sx={{
           padding: "60px",
           paddingTop: "0px",
+          paddingBottom: "0px",
           color: "defaultBG",
         }}
       >
