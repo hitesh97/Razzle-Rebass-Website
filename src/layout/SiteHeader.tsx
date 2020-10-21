@@ -35,7 +35,7 @@ class SiteHeader extends React.Component<{}, {}> {
             }}
           >
             {MenuItems.filter((item) => item.enabled).map((item) => (
-              <li style={{ marginLeft: "15px" }}>
+              <li key={`header-menu-${item.id}`} style={{ marginLeft: "15px" }}>
                 <Link key={item.id} href={item.href}>
                   {item.name}
                 </Link>

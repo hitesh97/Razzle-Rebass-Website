@@ -33,7 +33,7 @@ class SiteFooterMenu extends React.Component<{}, {}> {
             }}
           >
             {MenuItems.filter((item) => item.enabled).map((item) => (
-              <li style={{}}>
+              <li key={`footer-menu-${item.id}`} style={{}}>
                 <Link key={item.id} href={item.href} sx={{ color: "white" }}>
                   {item.name}
                 </Link>
