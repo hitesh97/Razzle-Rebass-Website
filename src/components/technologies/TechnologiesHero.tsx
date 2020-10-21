@@ -23,7 +23,8 @@ class TechnologiesHero extends React.Component<TechnologiesHeroProps, {}> {
         >
           <Box style={{ fontSize: "1.2rem" }}>
             <Text as="h1" sx={{ fontSize: "3rem", fontWeight: "300" }}>
-              The Technology Partner, Trusted By Customers Again and Again!
+              We deliver great results for our customers because we know that’s
+              what keeps them coming back to us.
             </Text>
             <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
               Over the last decade of our existence, We have acquired excellent,
@@ -40,19 +41,13 @@ class TechnologiesHero extends React.Component<TechnologiesHeroProps, {}> {
               Our focus on sound architectural design and clean coding practices
               ensure that we always deliver scalable, secure, and
               high-performing applications.
+              <br />
+              We provide straightforward and jargon-free advice and support,
+              getting to the heart of what you need to achieve. Our ethos of
+              providing elegant and simple solutions means that they are
+              cost-effective and reliable, and they do exactly what you want
+              them to do.
             </p>
-            <Box
-              sx={{
-                width: "250px",
-                borderWidth: "1px",
-                borderStyle: "solid",
-                borderColor: "black",
-                textAlign: "center",
-                marginLeft: "auto",
-                marginRight: "auto",
-                marginTop: "60px",
-              }}
-            />
           </Box>
         </Box>
       </Flex>

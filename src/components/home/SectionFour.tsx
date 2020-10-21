@@ -37,7 +37,7 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
             tileHeading="What Can We Do For You?"
             tileContent={
               <>
-                <p style={{ fontSize: "1.1rem", marginTop: "40px" }}>
+                <p style={{ marginTop: "40px" }}>
                   We can build you a new website from scratch. Most likely it
                   will be Wordpress-based. We will also take care of the domain
                   registration for you and and will host and support your site
@@ -51,7 +51,7 @@ class SectionFour extends React.Component<SectionFourProps, {}> {
                     color: "white",
                     fontWeight: "300",
                   }}
-                  href="/worktogether"
+                  href="/services"
                   as="a"
                 >
                   LEARN MORE

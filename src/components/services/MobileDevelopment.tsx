@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
-import TwoColumnTextSection from "./TwoColumnTextSection";
+import TwoColumnTextSection from "../technologies/TwoColumnTextSection";
 
 interface MobileDevelopmentProps {}
 
@@ -64,13 +64,15 @@ class MobileDevelopment extends React.Component<MobileDevelopmentProps, {}> {
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
                 <p style={{ marginTop: "15px" }}>
-                  Mobile applications have become a critical part of the
-                  business growth strategy. Every possible professional arena
-                  needs mobile apps for a seamless, comprehensive workflow
-                  implementation. We had rightly predicted the opportunities and
-                  challenges of mobile eco-system right at the onset of the
-                  mobile economy, and have put in significant efforts and time
-                  to master every aspect of the mobile apps development.
+                  We development skills to build and deploy applications
+                  targeted at any of the mobile platforms and hardware
+                  manufacturers in use today. The team is also well placed to
+                  provide tailored approaches involving multiple technologies
+                  and programming languages where necessary. Whatever your
+                  business process or context, Blueberry has the expertise to
+                  provide bespoke, comprehensive solutions to mobile
+                  integration, enhancing not only communication but also
+                  efficiency and productivity.
                 </p>
               </Box>
             }

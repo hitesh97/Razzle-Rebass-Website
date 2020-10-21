@@ -29,7 +29,7 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
             tileHeading="How We Work"
             tileContent={
               <>
-                <p style={{ fontSize: "1.1rem", marginTop: "40px" }}>
+                <p style={{ marginTop: "40px" }}>
                   Specialists in brand strategy, brand creation and design
                   across print, digital and environmental platforms. We use
                   design thinking to add commercial value to our clients

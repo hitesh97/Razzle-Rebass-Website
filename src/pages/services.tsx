@@ -6,8 +6,8 @@ import WebDesign from "../components/services/WebDesign";
 import WebDesignHeader from "../components/services/WebDesignHeader";
 import WebDevelopment from "../components/services/WebDevelopment";
 import WebDevelopmentHeader from "../components/services/WebDevelopmentHeader";
-import MobileDevelopment from "../components/technologies/MobileDevelopment";
-import MobileDevelopmentHeader from "../components/technologies/MobileDevelopmentHeader";
+import MobileDevelopment from "../components/services/MobileDevelopment";
+import MobileDevelopmentHeader from "../components/services/MobileDevelopmentHeader";
 
 interface ServicesProps {}
 
