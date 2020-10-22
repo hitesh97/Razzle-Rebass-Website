@@ -2,9 +2,12 @@ import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
 
-interface AboutUsHeaderProps {}
+interface HowWeWorkHeaderStaffProps {}
 
-class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
+class HowWeWorkHeaderStaff extends React.Component<
+  HowWeWorkHeaderStaffProps,
+  {}
+> {
   public render() {
     return (
       <Flex
@@ -24,16 +27,13 @@ class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
             backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
-            tileHeading="We are a small team"
+            tileHeading="Staff Augmentation"
             tileContent={
-              <Box style={{ fontSize: "1.5rem" }}>
-                <Text as="h5" sx={{ marginTop: "20px", marginBottom: "20px" }}>
-                  with attention to details and efficiency at heart!
-                </Text>
+              <Box style={{ fontSize: "1.5rem", marginTop: "20px" }}>
                 <Text>
-                  We are headquartered in the UK, with regional operations in
-                  India. Our primary focus is the agile development of
-                  cloud-connected web and mobile apps.
+                  Do you need additional power & knowledge in your product
+                  development? Nearing project deadline? Worry not. Our expert
+                  designers and developers, at your service.
                 </Text>
               </Box>
             }
@@ -47,11 +47,11 @@ class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
             paddingTop: "20px",
           }}
         >
-          <Image src="team_spirit.svg" style={{ maxHeight: "320px" }} />
+          <Image src="team.svg" style={{ maxHeight: "320px" }} />
         </Box>
       </Flex>
     );
   }
 }
 
-export default AboutUsHeader;
+export default HowWeWorkHeaderStaff;

@@ -44,7 +44,7 @@ class SectionTwo extends React.Component<SectionTwoProps, {}> {
                     color: "white",
                     fontWeight: "300",
                   }}
-                  href="/howwework"
+                  href="/how-we-work"
                   as="a"
                 >
                   LEARN MORE

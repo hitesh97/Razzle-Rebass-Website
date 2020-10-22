@@ -2,9 +2,9 @@ import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
 
-interface AboutUsHeaderProps {}
+interface HowWeWorkHeaderDevProps {}
 
-class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
+class HowWeWorkHeaderDev extends React.Component<HowWeWorkHeaderDevProps, {}> {
   public render() {
     return (
       <Flex
@@ -24,16 +24,14 @@ class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
             backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
-            tileHeading="We are a small team"
+            tileHeading="Development"
             tileContent={
-              <Box style={{ fontSize: "1.5rem" }}>
-                <Text as="h5" sx={{ marginTop: "20px", marginBottom: "20px" }}>
-                  with attention to details and efficiency at heart!
-                </Text>
+              <Box style={{ fontSize: "1.5rem", marginTop: "20px" }}>
                 <Text>
-                  We are headquartered in the UK, with regional operations in
-                  India. Our primary focus is the agile development of
-                  cloud-connected web and mobile apps.
+                  We always build products with the end user in mind. Whether
+                  your product is a bespoke web-based application, a complex
+                  mobile app, or an all-encompassing ecosystem, we'll build it
+                  right.
                 </Text>
               </Box>
             }
@@ -47,11 +45,11 @@ class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
             paddingTop: "20px",
           }}
         >
-          <Image src="team_spirit.svg" style={{ maxHeight: "320px" }} />
+          <Image src="creative_team.svg" style={{ maxHeight: "320px" }} />
         </Box>
       </Flex>
     );
   }
 }
 
-export default AboutUsHeader;
+export default HowWeWorkHeaderDev;
