@@ -1,10 +1,10 @@
 import React from "react";
-import { Box, Flex, Button, Text, Image } from "rebass";
+import { Box, Image, Flex, Text } from "rebass";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
 
-interface UIDesignHeaderProps {}
+interface UIDesignResponsiveProps {}
 
-class UIDesignHeader extends React.Component<UIDesignHeaderProps, {}> {
+class UIDesignResponsive extends React.Component<UIDesignResponsiveProps, {}> {
   public render() {
     return (
       <Flex
@@ -24,14 +24,16 @@ class UIDesignHeader extends React.Component<UIDesignHeaderProps, {}> {
             backgroundColor="servicesPageBG"
             tileIcon={null}
             tileSubTitle=""
-            tileHeading="UI Design Services"
+            tileHeading="Responsive Design"
             tileContent={
               <Box style={{ fontSize: "1.5rem", marginTop: "20px" }}>
                 <Text>
-                  We craft user interfaces that fit both brand and product
-                  function. Incorporating modern UI design patterns, and paying
-                  careful attention to all aspects of the user interface; from
-                  typography to color choice and overall mood.
+                  It’s a multi-device world. Responsive web design is essential.
+                  Our team builds digital products that look great and deliver
+                  the best user experience on all devices. Our in-house
+                  designers have a breadth of experience in responsive design,
+                  we create functional products that look great on web, mobile
+                  and tablet devices.
                 </Text>
               </Box>
             }
@@ -47,7 +49,7 @@ class UIDesignHeader extends React.Component<UIDesignHeaderProps, {}> {
           }}
         >
           <Image
-            src="ui_design_responsive.svg"
+            src="ui_design_real_time_sync.svg"
             style={{ maxHeight: "320px" }}
           />
         </Box>
@@ -56,4 +58,4 @@ class UIDesignHeader extends React.Component<UIDesignHeaderProps, {}> {
   }
 }
 
-export default UIDesignHeader;
+export default UIDesignResponsive;
