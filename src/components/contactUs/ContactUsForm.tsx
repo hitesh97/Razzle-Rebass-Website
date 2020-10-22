@@ -102,7 +102,6 @@ class ContactUsForm extends React.Component<ContactUsFormProps, {}> {
             flexBasis: 512,
             minHeight: "450px",
             padding: "60px",
-            paddingLeft: "0px",
             paddingTop: "100px",
           }}
         >
@@ -114,7 +113,7 @@ class ContactUsForm extends React.Component<ContactUsFormProps, {}> {
               Prefer to email or phone?
             </Text>
             <Text as="h3" sx={{ fontWeight: "300" }}>
-              {SiteConfig.adminEmail}
+              {SiteConfig.contactEmail}
             </Text>
             <Text as="h3" sx={{ fontWeight: "300" }}>
               {SiteConfig.phone}

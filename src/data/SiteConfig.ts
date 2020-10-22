@@ -7,12 +7,14 @@ interface IAddress {
 }
 interface ISiteConfig {
   adminEmail: string;
+  contactEmail: string;
   phone: string;
   whatsAppNo: string;
   address: IAddress;
 }
 const SiteConfig: ISiteConfig = {
   adminEmail: "admin@akruticonsulting.com",
+  contactEmail: "info@akruticonsulting.com",
   phone: "+44 7949207064",
   whatsAppNo: "+44 7949207064",
   address: {

@@ -44,7 +44,7 @@ class SectionSix extends React.Component<SectionSixProps, {}> {
                     color: "white",
                     fontWeight: "300",
                   }}
-                  href="/webdesign"
+                  href="/ui-design"
                   as="a"
                 >
                   LEARN MORE

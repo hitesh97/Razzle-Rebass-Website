@@ -2,10 +2,10 @@ import React from "react";
 import { Box } from "rebass";
 import TechnologyTile from "../technologies/TechnologyTile";
 
-interface HowWeWorkDetailsPropsDev {}
+interface HowWeWorkDetailsDevProps {}
 
 class HowWeWorkDetailsDev extends React.Component<
-  HowWeWorkDetailsPropsDev,
+  HowWeWorkDetailsDevProps,
   {}
 > {
   public render() {

@@ -8,6 +8,7 @@ import Technologies from "./pages/technologies";
 import ContactUs from "./pages/contactUs";
 import AboutUs from "./pages/aboutUs";
 import HowWeWork from "./pages/howWeWork";
+import UIDesign from "./pages/uiDesign";
 
 interface PrivateRouteProps extends RouteProps {
   // tslint:disable-next-line:no-any
@@ -65,6 +66,13 @@ const App = () => (
       exact={true}
       path="/how-we-work"
       component={HowWeWork}
+      layout={StickyFooterLayout}
+    />
+
+    <RouteWrapper
+      exact={true}
+      path="/ui-design"
+      component={UIDesign}
       layout={StickyFooterLayout}
     />
     <RouteWrapper component={Home} layout={StickyFooterLayout} />

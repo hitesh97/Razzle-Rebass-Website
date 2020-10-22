@@ -36,10 +36,7 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
           >
             <li style={{}}>
               <FaEnvelope size="20" style={{ marginRight: "20px" }} />
-              <Link
-                sx={{ color: "white" }}
-                href={`mailto:${SiteConfig.adminEmail}`}
-              >
+              <Link sx={{ color: "white" }} href={"contact-us"}>
                 GET IN TOUCH
               </Link>
             </li>
@@ -51,7 +48,7 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
               <FaPhone size="20" style={{ marginRight: "20px" }} />
               PHONE: {SiteConfig.phone}
             </li>
-            <li style={{}}>
+            {/* <li style={{}}>
               <FaHome size="20" style={{ marginRight: "20px" }} />
               Address
               <ol style={{ listStyle: "none", marginTop: "5px" }}>
@@ -73,7 +70,7 @@ class SiteFooterContactUs extends React.Component<{}, {}> {
                   </li>
                 )}
               </ol>
-            </li>
+            </li> */}
           </ul>
         </Box>
       </Flex>

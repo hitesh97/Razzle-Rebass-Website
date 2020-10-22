@@ -1,8 +1,6 @@
 import React from "react";
-import { Box, Flex, Button, Text, Image } from "rebass";
-import { FaPalette, FaRegPaperPlane } from "react-icons/fa";
+import { Box, Flex } from "rebass";
 import SectionTwoTile1 from "../home/SectionTwoTile1";
-import SectionTwoTile2 from "../home/SectionTwoTile2";
 
 interface WebDesignProps {}
 
