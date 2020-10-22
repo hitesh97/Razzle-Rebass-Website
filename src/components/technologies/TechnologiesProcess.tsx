@@ -40,33 +40,49 @@ class TechnologiesProcess extends React.Component<
             <TechnologyTile
               icon={<FaRegLightbulb size="30" />}
               title="A complete solution"
-              text="We take care of backend and frontend development, branding,
-              UI/UX design, copywriting and SEO, everything needed to bring
-              your ideas to life."
+              text={
+                <p>
+                  We take care of backend and frontend development, branding,
+                  UI/UX design, copywriting and SEO, everything needed to bring
+                  your ideas to life.
+                </p>
+              }
             />
             <TechnologyTile
               icon={<FaRoute size="30" />}
               title="A clear path"
-              text="Before we get to work, we create a plan of action. One that
+              text={
+                <p>
+                  Before we get to work, we create a plan of action. One that
                   will explain—in plain English—precisely what we will be doing
                   and the steps we are going to take to achieve the goals we set
-                  out."
+                  out.
+                </p>
+              }
             />
             <TechnologyTile
               icon={<FaStopwatch size="30" />}
               title="Delivered on time"
-              text="Fundamental to our process is delivering on time, every time.
-              When one domino falls, it’s easy for the rest to follow.
-              That’s why we place such importance on setting a realistic
-              timeframe and sticking to it."
+              text={
+                <p>
+                  Fundamental to our process is delivering on time, every time.
+                  When one domino falls, it’s easy for the rest to follow.
+                  That’s why we place such importance on setting a realistic
+                  timeframe and sticking to it.
+                </p>
+              }
             />
             <TechnologyTile
               icon={<FaToolbox size="30" />}
               title="An expert solutions and Tools"
-              text="Our team is made up of some of the best full-stack and Laravel
-              developers in the UK. Coupled with a core team of project
-              managers, UX/UI designers and content writers, we provide the
-              best and most competent team for the job."
+              text={
+                <p>
+                  Our team is made up of some of the best full-stack and Laravel
+                  developers in the UK. Coupled with a core team of project
+                  managers, UX/UI designers and content writers, we provide the
+                  best and most competent team for the job.
+                </p>
+              }
             />
           </Box>
         </Box>

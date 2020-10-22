@@ -10,7 +10,7 @@ import {
 interface TechnologyTileProps {
   icon: React.ReactNode;
   title: string;
-  text: string;
+  text: React.ReactNode;
 }
 
 class TechnologyTile extends React.Component<TechnologyTileProps, {}> {
