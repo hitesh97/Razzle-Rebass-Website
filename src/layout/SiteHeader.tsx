@@ -24,9 +24,10 @@ const SiteHeader: FunctionComponent = () => {
         color: "white",
         padding: 3,
         position: `${scrolled ? "fixed" : ""}`,
+        top: 0,
         width: "100%",
         backgroundColor: "siteSecondaryBG",
-        boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+        boxShadow: `${scrolled ? "0 2px 6px rgba(0,0,0,0.2)" : ""}`,
       }}
     >
       <Box

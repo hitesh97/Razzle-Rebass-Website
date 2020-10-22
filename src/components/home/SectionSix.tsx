@@ -28,7 +28,7 @@ class SectionSix extends React.Component<SectionSixProps, {}> {
             tileHeading="We Design Websites That Work"
             tileContent={
               <>
-                <p style={{ marginTop: "40px" }}>
+                <p style={{ marginTop: "40px", lineHeight: "2.5rem" }}>
                   Our passion, excellent listening skills and personalised touch
                   help build a strong and unique rapport with our clients. This
                   enables us to interpret the client’s vision from first meeting

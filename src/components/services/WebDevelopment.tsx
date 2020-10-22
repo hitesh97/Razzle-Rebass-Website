@@ -56,7 +56,7 @@ class WebDevelopment extends React.Component<WebDevelopmentProps, {}> {
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p style={{ marginTop: "15px" }}>
+                <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
                   Due to the breadth of our technology expertise, we leverage
                   the right tools and platforms to build web applications that
                   perform optimally no matter what the load is, are scalable,

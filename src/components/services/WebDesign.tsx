@@ -58,13 +58,13 @@ class WebDesign extends React.Component<WebDesignProps, {}> {
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p style={{ marginTop: "15px" }}>
+                <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
                   Sound design principles and interaction design characterize
                   today’s web. It is a combination of aesthetics, usability, and
                   responsiveness. The designs today are not only utilitarian but
                   also aspirational.
                 </p>
-                <p>
+                <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
                   We give shape and colors to your ideas and envisages a web
                   interface that users find a delight to interact with. We
                   understand the needs of today’s users, and hence our

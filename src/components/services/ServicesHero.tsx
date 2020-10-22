@@ -35,7 +35,7 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
             >
               THROUGH TRANSPARENT AND QUICK DELIVERY
             </Text>
-            <p style={{ marginTop: "15px" }}>
+            <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
               Our team designs and delivers innovative applications by
               leveraging our experience, skills, and processes. We have gained
               deep industry-insights by working with a variety of domains, and
@@ -43,7 +43,7 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
               objectives. Our technical expertise ensures that the team can
               tackle any challenge to provide you with a quality solution.
             </p>
-            <p>
+            <Box>
               <ul style={{ lineHeight: "2.5rem", listStyle: "circle" }}>
                 <li>BROAD INDUSTRY AND TECHNOLOGY EXPERIENCE</li>
                 <li>
@@ -52,7 +52,7 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
                 <li>ARCHITECTURE BASED ON SOUND DESIGN PRINCIPLES</li>
                 <li>FOCUS ON BALANCED INTERACTION DESIGN AND AESTHETICS</li>
               </ul>
-            </p>
+            </Box>
           </Box>
         </Box>
       </Flex>

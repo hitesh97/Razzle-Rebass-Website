@@ -30,7 +30,7 @@ class AboutUsHeader extends React.Component<AboutUsHeaderProps, {}> {
                 <Text as="h5" sx={{ marginTop: "20px", marginBottom: "20px" }}>
                   with attention to details and efficiency at heart!
                 </Text>
-                <Text>
+                <Text sx={{ lineHeight: "2.5rem" }}>
                   We are headquartered in the UK, with regional operations in
                   India. Our primary focus is the agile development of
                   cloud-connected web and mobile apps.

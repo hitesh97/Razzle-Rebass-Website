@@ -9,7 +9,7 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
       <Box
         sx={{
           backgroundImage: "url(section8_tile1_img.jpeg)",
-          backgroundSize: "",
+          backgroundSize: "cover",
           color: "white",
           bg: "gray",
           backgroundPosition: "50% 100%",
@@ -58,7 +58,7 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
                 >
                   We Listen, You Talk!
                 </Text>
-                <Text as="p" sx={{ marginTop: "40px" }}>
+                <Text as="p" sx={{ marginTop: "40px", lineHeight: "2.5rem" }}>
                   That’s how we understand your expectations of your brand and
                   website. This simple approach provides us with the knowledge
                   we need to plan an effective strategy for your business.

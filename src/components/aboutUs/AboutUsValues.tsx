@@ -33,7 +33,7 @@ class AboutUsValues extends React.Component<AboutUsValuesProps, {}> {
               icon={null}
               title="Company focus"
               text={
-                <p>
+                <p style={{ lineHeight: "2.5rem" }}>
                   Our focus is the agile development of web, cloud, and mobile
                   applications - and helping organizations create and sustain
                   digital innovation. We reduce development risk for our clients
@@ -47,7 +47,7 @@ class AboutUsValues extends React.Component<AboutUsValuesProps, {}> {
               icon={null}
               title="Agile approach"
               text={
-                <p>
+                <p style={{ lineHeight: "2.5rem" }}>
                   Our approach is fast, flexible, and collaborative. All our
                   clients have direct access to our leadership team, plus a
                   designated Product Manager who is responsible for making sure
@@ -60,7 +60,7 @@ class AboutUsValues extends React.Component<AboutUsValuesProps, {}> {
               icon={null}
               title="Global team, local feel"
               text={
-                <p>
+                <p style={{ lineHeight: "2.5rem" }}>
                   We're a tightly knit global team, with offices in 2 major
                   cities across the world. We're passionate about learning,
                   developing ourselves professionally and creating innovative
@@ -72,7 +72,7 @@ class AboutUsValues extends React.Component<AboutUsValuesProps, {}> {
               icon={null}
               title="Process"
               text={
-                <p>
+                <p style={{ lineHeight: "2.5rem" }}>
                   We create business impact via a proven approach to identifying
                   and delivering on digital opportunities, using best-in-class
                   techniques such as design thinking, rapid prototyping and UXD.

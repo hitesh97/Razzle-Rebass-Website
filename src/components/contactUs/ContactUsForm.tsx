@@ -105,7 +105,7 @@ class ContactUsForm extends React.Component<ContactUsFormProps, {}> {
             paddingTop: "100px",
           }}
         >
-          <Box style={{ fontSize: "1.2rem" }}>
+          <Box style={{ fontSize: "1.2rem", lineHeight: "2.5rem" }}>
             <Text
               as="h1"
               sx={{ fontSize: "2rem", fontWeight: "300", marginBottom: "20px" }}

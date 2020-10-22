@@ -27,6 +27,7 @@ class SectionSeven extends React.Component<{}, {}> {
               marginLeft: "auto",
               marginRight: "auto",
               maxWidth: "700px",
+              lineHeight: "3.5rem",
             }}
           >
             We Specialise In Branding, Graphic Design, Web Design & Art

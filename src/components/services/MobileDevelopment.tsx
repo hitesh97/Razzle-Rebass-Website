@@ -63,7 +63,7 @@ class MobileDevelopment extends React.Component<MobileDevelopmentProps, {}> {
             tileHeading=""
             tileContent={
               <Box style={{ fontSize: "1.5rem" }}>
-                <p style={{ marginTop: "15px" }}>
+                <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
                   We development skills to build and deploy applications
                   targeted at any of the mobile platforms and hardware
                   manufacturers in use today. The team is also well placed to

@@ -26,6 +26,7 @@ class SectionFive extends React.Component<{}, {}> {
               marginLeft: "auto",
               marginRight: "auto",
               maxWidth: "1000px",
+              lineHeight: "3.5rem",
             }}
           >
             It’s The Unique Ideas And The Passionate People Behind Them That
@@ -52,6 +53,7 @@ class SectionFive extends React.Component<{}, {}> {
               maxWidth: "1200px",
               marginLeft: "auto",
               marginRight: "auto",
+              lineHeight: "2.5rem",
             }}
           >
             We approach every project with the same energy and enthusiasm,
