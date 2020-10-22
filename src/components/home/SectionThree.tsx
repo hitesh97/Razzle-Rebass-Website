@@ -9,7 +9,7 @@ class SectionThree extends React.Component<{}, {}> {
     return (
       <Box
         sx={{
-          backgroundColor: "sectionThreeBG",
+          backgroundColor: "siteSecondaryBG",
           padding: "40px",
         }}
       >
@@ -40,7 +40,7 @@ class SectionThree extends React.Component<{}, {}> {
         </Box>
         <Box
           sx={{
-            backgroundColor: "sectionThreeBG",
+            backgroundColor: "siteSecondaryBG",
             display: "grid",
             gridTemplateColumns: [
               "repeat(1, 1fr)",

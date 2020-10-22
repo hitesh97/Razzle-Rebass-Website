@@ -7,7 +7,7 @@ class SectionSeven extends React.Component<{}, {}> {
     return (
       <Box
         sx={{
-          backgroundColor: "sectionThreeBG",
+          backgroundColor: "siteSecondaryBG",
           padding: "100px",
         }}
       >
