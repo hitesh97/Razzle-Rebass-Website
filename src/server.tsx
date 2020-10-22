@@ -46,6 +46,18 @@ const server = express()
               ? `<script src="${assets.client.js}" defer></script>`
               : `<script src="${assets.client.js}" defer crossorigin></script>`
           }
+        <style>
+        body {
+          margin: 0px;
+          padding: 0px;
+          font-family: /*iOS*/ "AvenirNextCondensed-Bold", "Futura-CondensedExtraBold",
+            /*MacOSX*/ HelveticaNeue-CondensedBold, /*Ubuntu*/ "Ubuntu Condensed",
+            "Liberation Sans Narrow", /*Windows*/ "Franklin Gothic Demi Cond",
+            "Arial Narrow", /*Android*/ sans-serif-condensed, /*Fallback*/ Arial,
+            "Trebuchet MS", "Lucida Grande", Tahoma, Verdana, sans-serif;
+          font-size: 1.25rem;
+        }
+        </style>
     </head>
     <body>
         <div id="root">${markup}</div>
