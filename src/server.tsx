@@ -58,6 +58,9 @@ const server = express()
           font-size: 1.25rem;
           line-height: "2rem";
         }
+        h1 {
+          line-height: 3.5rem;
+        }
         </style>
     </head>
     <body>

@@ -52,7 +52,6 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
                 <Text
                   as="h1"
                   sx={{
-                    fontSize: "3.75rem",
                     fontWeight: "300",
                   }}
                 >

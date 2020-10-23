@@ -22,12 +22,13 @@ const SiteHeader: FunctionComponent = () => {
       sx={{
         flexWrap: "wrap",
         color: "white",
-        padding: 3,
+        padding: 2,
         position: `${scrolled ? "fixed" : ""}`,
         top: 0,
         width: "100%",
         backgroundColor: "siteSecondaryBG",
         boxShadow: `${scrolled ? "0 2px 6px rgba(0,0,0,0.2)" : ""}`,
+        paddingRight: "60px",
       }}
     >
       <Box
