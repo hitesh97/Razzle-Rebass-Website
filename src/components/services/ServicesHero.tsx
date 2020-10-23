@@ -35,7 +35,13 @@ class ServicesHero extends React.Component<ServicesHeroProps, {}> {
             >
               THROUGH TRANSPARENT AND QUICK DELIVERY
             </Text>
-            <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
+            <p
+              style={{
+                marginTop: "15px",
+                lineHeight: "2.5rem",
+                fontSize: "1.5rem",
+              }}
+            >
               Our team designs and delivers innovative applications by
               leveraging our experience, skills, and processes. We have gained
               deep industry-insights by working with a variety of domains, and
