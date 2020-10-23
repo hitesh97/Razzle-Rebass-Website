@@ -39,6 +39,7 @@ class SectionTwoTile2 extends React.Component<SectionTwoTile2Props, {}> {
             objectPosition: "50% 0%",
             backgroundPosition: "50% 0%",
             marginTop: "30px",
+            maxWidth: "600px",
           }}
         />
       </Box>

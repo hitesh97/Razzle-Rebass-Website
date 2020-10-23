@@ -12,7 +12,7 @@ class ContactUsHeader extends React.Component<ContactUsHeaderProps, {}> {
           backgroundColor: "servicesPageBG",
           color: "defaultBG",
           padding: "60px",
-          paddingTop: "0px",
+          paddingTop: "40px",
           paddingBottom: "0px",
         }}
       >

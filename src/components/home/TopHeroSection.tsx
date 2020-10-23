@@ -54,13 +54,15 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
                     marginTop: "20px",
                     fontSize: "3.75rem",
                     fontWeight: "300",
+                    lineHeight: "3.5rem",
                   }}
                 >
                   Welcome To Our Studio
                 </Text>
                 <Text as="p" sx={{ marginTop: "20px" }}>
-                  Design that excites. Brand identities that pop. Web solutions
-                  that are beautiful + functional.
+                  Design that excites. Brand identities that pop.
+                  <br />
+                  Web solutions that are beautiful + functional.
                 </Text>
                 <Button
                   variant="outline"

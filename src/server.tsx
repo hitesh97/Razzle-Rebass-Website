@@ -56,6 +56,7 @@ const server = express()
             "Arial Narrow", /*Android*/ sans-serif-condensed, /*Fallback*/ Arial,
             "Trebuchet MS", "Lucida Grande", Tahoma, Verdana, sans-serif;
           font-size: 1.25rem;
+          line-height: "2rem";
         }
         </style>
     </head>

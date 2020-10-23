@@ -30,6 +30,8 @@ class TechnologyBrandsRibbon extends React.Component<
           display: "grid",
           gridGap: 3,
           gridTemplateColumns: ["repeat(4, 1fr)", "repeat(10, 1fr)"],
+          paddingLeft: "60px",
+          paddingRight: "60px",
         }}
       >
         <TechnologyBrandTile icon={<FaReact size="40" />} title="" />
