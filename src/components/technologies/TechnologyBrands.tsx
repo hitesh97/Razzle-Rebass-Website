@@ -1,20 +1,6 @@
 import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
-import {
-  FaAngular,
-  FaAws,
-  FaCss3Alt,
-  FaDocker,
-  FaHtml5,
-  FaNode,
-  FaPhp,
-  FaReact,
-  FaWordpress,
-} from "react-icons/fa";
 
-import { DiJsBadge } from "react-icons/di";
-
-import TechnologyBrandTile from "./TechnologyBrandTile";
 import TechnologyBrandsRibbon from "./TechnologyBrandsRibbon";
 
 interface TechnologyBrandsProps {}

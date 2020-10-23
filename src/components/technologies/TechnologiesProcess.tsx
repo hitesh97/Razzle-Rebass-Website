@@ -38,7 +38,7 @@ class TechnologiesProcess extends React.Component<
             }}
           >
             <TechnologyTile
-              icon={<FaRegLightbulb size="30" />}
+              icon={<FaRegLightbulb size="30" fill="#E65100" />}
               title="A complete solution"
               text={
                 <span style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
@@ -49,7 +49,7 @@ class TechnologiesProcess extends React.Component<
               }
             />
             <TechnologyTile
-              icon={<FaRoute size="30" />}
+              icon={<FaRoute size="30" fill="#E65100" />}
               title="A clear path"
               text={
                 <span style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
@@ -61,7 +61,7 @@ class TechnologiesProcess extends React.Component<
               }
             />
             <TechnologyTile
-              icon={<FaStopwatch size="30" />}
+              icon={<FaStopwatch size="30" fill="#E65100" />}
               title="Delivered on time"
               text={
                 <span style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
@@ -73,7 +73,7 @@ class TechnologiesProcess extends React.Component<
               }
             />
             <TechnologyTile
-              icon={<FaToolbox size="30" />}
+              icon={<FaToolbox size="30" fill="#E65100" />}
               title="An expert solutions and Tools"
               text={
                 <span style={{ marginTop: "15px", lineHeight: "2.5rem" }}>

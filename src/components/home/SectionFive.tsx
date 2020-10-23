@@ -58,13 +58,11 @@ class SectionFive extends React.Component<{}, {}> {
           >
             We approach every project with the same energy and enthusiasm,
             providing our clients with a personal one-on-one service, a unique
-            design solution and a strong, well-defined brand. Our website had
-            gotten quite dated and was not performing on handheld devices. We
-            pride ourselves on being progressive innovative advisers and it’s
-            very important our website reflects that. Having worked with
-            previous designers flexibility and responsiveness were key
-            characteristics we were looking for as well as a strong creative
-            flair.
+            design solution and a strong, well-defined brand. We pride ourselves
+            on being progressive innovative advisers and it’s very important our
+            website reflects that. Having worked with previous designers
+            flexibility and responsiveness were key characteristics we were
+            looking for as well as a strong creative flair.
           </Text>
         </Box>
       </Box>

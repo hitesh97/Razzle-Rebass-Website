@@ -1,20 +1,5 @@
 import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
-import {
-  FaAngular,
-  FaAws,
-  FaCss3Alt,
-  FaDocker,
-  FaHtml5,
-  FaNode,
-  FaPhp,
-  FaReact,
-  FaWordpress,
-} from "react-icons/fa";
-
-import { DiJsBadge } from "react-icons/di";
-
-import TechnologyBrandTile from "./TechnologyBrandTile";
 
 interface TechnologyBrandsRibbonProps {}
 
@@ -29,21 +14,66 @@ class TechnologyBrandsRibbon extends React.Component<
           backgroundColor: "white",
           display: "grid",
           gridGap: 3,
-          gridTemplateColumns: ["repeat(4, 1fr)", "repeat(10, 1fr)"],
+          gridTemplateColumns: ["repeat(4, 1fr)", "repeat(11, 1fr)"],
           paddingLeft: "60px",
           paddingRight: "60px",
+          marginTop: "60px",
         }}
       >
-        <TechnologyBrandTile icon={<FaReact size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaHtml5 size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaCss3Alt size="40" />} title="" />
-        <TechnologyBrandTile icon={<DiJsBadge size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaNode size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaAngular size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaWordpress size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaPhp size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaAws size="40" />} title="" />
-        <TechnologyBrandTile icon={<FaDocker size="40" />} title="" />
+        <Image
+          src="tech_Icons/react.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="reactjs"
+        />
+        <Image
+          src="tech_Icons/html5.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="html 5"
+        />
+        <Image
+          src="tech_Icons/css.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="css 3"
+        />
+        <Image
+          src="tech_Icons/javascript.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="javascript"
+        />
+        <Image
+          src="tech_Icons/nodejs.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="nodeJs"
+        />
+        <Image
+          src="tech_Icons/angularjs.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="angularJs"
+        />
+        <Image
+          src="tech_Icons/wordpress.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="wordpress"
+        />
+        <Image
+          src="tech_Icons/php.svg"
+          sx={{ height: "40px", width: "40px" }}
+        />
+        <Image
+          src="tech_Icons/aws.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="aws"
+        />
+        <Image
+          src="tech_Icons/docker.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="docker"
+        />
+        <Image
+          src="tech_Icons/azure.svg"
+          sx={{ height: "40px", width: "40px" }}
+          alt="Azure"
+        />
       </Box>
     );
   }
