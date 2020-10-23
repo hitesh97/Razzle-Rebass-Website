@@ -29,13 +29,28 @@ const SiteHeader: FunctionComponent = () => {
         backgroundColor: "siteSecondaryBG",
         boxShadow: `${scrolled ? "0 2px 6px rgba(0,0,0,0.2)" : ""}`,
         paddingRight: "60px",
+        paddingLeft: "60px",
       }}
     >
       <Box
         sx={{
           flexGrow: 1,
         }}
-      ></Box>
+      >
+        <ul
+          style={{
+            display: "inline-flex",
+            listStyle: "none",
+            fontSize: "1.2rem",
+            flexWrap: "inherit",
+            padding: "0px",
+          }}
+        >
+          <li style={{ color: "black", fontSize: "1.5rem" }}>
+            {"< />"} Akruti Consulting
+          </li>
+        </ul>
+      </Box>
       <Box
         sx={{
           flexGrow: 1,
