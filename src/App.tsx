@@ -9,6 +9,7 @@ import ContactUs from "./pages/contactUs";
 import AboutUs from "./pages/aboutUs";
 import HowWeWork from "./pages/howWeWork";
 import UIDesign from "./pages/uiDesign";
+import CookieConsent from "./layout/CookieConsent";
 
 interface PrivateRouteProps extends RouteProps {
   // tslint:disable-next-line:no-any
@@ -31,52 +32,55 @@ const RouteWrapper = (props: PrivateRouteProps) => {
 };
 
 const App = () => (
-  <Switch>
-    <RouteWrapper
-      exact={true}
-      path="/"
-      component={Home}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper
-      exact={true}
-      path="/services"
-      component={Services}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper
-      exact={true}
-      path="/technologies"
-      component={Technologies}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper
-      exact={true}
-      path="/contact-us"
-      component={ContactUs}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper
-      exact={true}
-      path="/about-us"
-      component={AboutUs}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper
-      exact={true}
-      path="/how-we-work"
-      component={HowWeWork}
-      layout={StickyFooterLayout}
-    />
+  <>
+    <CookieConsent />
+    <Switch>
+      <RouteWrapper
+        exact={true}
+        path="/"
+        component={Home}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper
+        exact={true}
+        path="/services"
+        component={Services}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper
+        exact={true}
+        path="/technologies"
+        component={Technologies}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper
+        exact={true}
+        path="/contact-us"
+        component={ContactUs}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper
+        exact={true}
+        path="/about-us"
+        component={AboutUs}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper
+        exact={true}
+        path="/how-we-work"
+        component={HowWeWork}
+        layout={StickyFooterLayout}
+      />
 
-    <RouteWrapper
-      exact={true}
-      path="/ui-design"
-      component={UIDesign}
-      layout={StickyFooterLayout}
-    />
-    <RouteWrapper component={Home} layout={StickyFooterLayout} />
-  </Switch>
+      <RouteWrapper
+        exact={true}
+        path="/ui-design"
+        component={UIDesign}
+        layout={StickyFooterLayout}
+      />
+      <RouteWrapper component={Home} layout={StickyFooterLayout} />
+    </Switch>
+  </>
 );
 
 export default App;

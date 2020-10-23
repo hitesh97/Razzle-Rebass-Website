@@ -9,12 +9,12 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
       <Box
         sx={{
           backgroundImage: "url(Top_Hero_img.jpeg)",
-          backgroundSize: "",
           color: "white",
           bg: "gray",
           backgroundPosition: "50% 100%",
           minHeight: "600px",
           objectFit: "cover",
+          backgroundSize: "cover",
         }}
       >
         <Flex

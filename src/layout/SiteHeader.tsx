@@ -47,7 +47,7 @@ const SiteHeader: FunctionComponent = () => {
           }}
         >
           <li style={{ color: "black", fontSize: "1.5rem" }}>
-            {"< />"} Akruti Consulting
+            {"<AC />"} Akruti Consulting
           </li>
         </ul>
       </Box>
