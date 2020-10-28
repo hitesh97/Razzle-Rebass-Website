@@ -3,6 +3,7 @@ import { Box, Flex, Image, Card, Heading, Text, Button } from "rebass";
 import { FaRegPaperPlane } from "react-icons/fa";
 import SectionOneTile from "./SectionOneTile";
 import SectionThreeTile from "./SectionThreeTile";
+import TechnologyBrandsRibbon from "../technologies/TechnologyBrandsRibbon";
 
 class SectionThree extends React.Component<{}, {}> {
   public render() {
@@ -24,10 +25,12 @@ class SectionThree extends React.Component<{}, {}> {
           >
             We Embrace New Technologies
           </Text>
+          <TechnologyBrandsRibbon backgorunColor="siteSecondaryBG" />
+
           <Button
             variant="outline"
             sx={{
-              marginTop: "20px",
+              marginTop: "30px",
               backgroundColor: "defaultBG",
               color: "white",
               fontWeight: "300",

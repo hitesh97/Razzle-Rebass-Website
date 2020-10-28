@@ -35,29 +35,30 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
             }}
           >
             <SectionOneTile
-              gridArea="leftMain"
+              gridArea="rightMain"
               tileIcon={<FaPencilRuler size="44" />}
-              tileHeading="Web Development"
+              tileHeading="ECommerce"
               tileContent={
                 <ul style={{ listStyle: "circle" }}>
-                  <li>Front & Back-end</li>
-                  <li>E-Commerce</li>
-                  <li>Content Management</li>
-                  <li>WordPress / HTML5 / CSS3</li>
-                  <li>ReactJs / AngularJs / VueJs / NextJs</li>
+                  <li>Front & Back-end for Ecommerce</li>
+                  <li>Woo-Commerce, Shopify</li>
+                  <li>Content Managed ECommerce</li>
+                  <li>Custom Integrations with Payment Gateways</li>
+                  <li>Third party API integrations</li>
                 </ul>
               }
             />
             <SectionOneTile
-              gridArea="rightMain"
+              gridArea="leftMain"
               tileIcon={<FaRegPaperPlane size="44" />}
-              tileHeading="Branding"
+              tileHeading="Web Design"
               tileContent={
                 <ul style={{ listStyle: "circle" }}>
-                  <li>Development & Research</li>
-                  <li>Development</li>
-                  <li>Strategy & Placement</li>
-                  <li>Brand Application</li>
+                  <li>Responsive design and Mobile first approach</li>
+                  <li>User Interface Design</li>
+                  <li>User Experience Design</li>
+                  <li>Custom Application Design</li>
+                  <li>Software Product Design</li>
                 </ul>
               }
             />
@@ -65,13 +66,16 @@ class SectionOne extends React.Component<SectionOneProps, {}> {
             <SectionOneTile
               gridArea="centerMain"
               tileIcon={<FaPalette size="44" />}
-              tileHeading="Graphic Design"
+              tileHeading="Web Development"
               tileContent={
                 <ul style={{ listStyle: "circle" }}>
-                  <li>Stationery & Promotional Material</li>
-                  <li>Design</li>
-                  <li>Art Direction</li>
-                  <li>Signage & Environment</li>
+                  <li>Cross Browser Web and Application</li>
+                  <li>CMS Development</li>
+                  <li>Custom Applications</li>
+                  <li>Enterprise Web Devleopment</li>
+                  <li>Product Devleopment</li>
+                  <li>WordPress / HTML5 / CSS3</li>
+                  <li>ReactJs / AngularJs / VueJs / NextJs</li>
                 </ul>
               }
             />

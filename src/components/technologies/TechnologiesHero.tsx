@@ -27,9 +27,8 @@ class TechnologiesHero extends React.Component<TechnologiesHeroProps, {}> {
               what keeps them coming back to us.
             </Text>
             <p style={{ marginTop: "15px", lineHeight: "2.5rem" }}>
-              Over the last decade of our existence, We have acquired excellent,
-              wide expertise over software development platforms, technologies,
-              and languages.
+              We have acquired excellent, wide expertise over software
+              development platforms, technologies, and languages.
               <br />
               The clarity of fundamentals has always enabled us to understand
               and master the rapidly evolving technological eco-system.
@@ -43,10 +42,11 @@ class TechnologiesHero extends React.Component<TechnologiesHeroProps, {}> {
               high-performing applications.
               <br />
               We provide straightforward and jargon-free advice and support,
-              getting to the heart of what you need to achieve. Our ethos of
-              providing elegant and simple solutions means that they are
-              cost-effective and reliable, and they do exactly what you want
-              them to do.
+              getting to the heart of what you need to achieve.
+              <br />
+              Our ethos of providing elegant and simple solutions means that
+              they are cost-effective and reliable, and they do exactly what you
+              want them to do.
             </p>
           </Box>
         </Box>

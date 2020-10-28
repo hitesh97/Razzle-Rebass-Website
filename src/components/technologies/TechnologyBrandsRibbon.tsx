@@ -1,7 +1,9 @@
 import React from "react";
 import { Box, Flex, Button, Text, Image } from "rebass";
 
-interface TechnologyBrandsRibbonProps {}
+interface TechnologyBrandsRibbonProps {
+  backgorunColor?: string;
+}
 
 class TechnologyBrandsRibbon extends React.Component<
   TechnologyBrandsRibbonProps,
@@ -11,7 +13,9 @@ class TechnologyBrandsRibbon extends React.Component<
     return (
       <Box
         sx={{
-          backgroundColor: "white",
+          backgroundColor: `${
+            this.props.backgorunColor ? this.props.backgorunColor : "white"
+          }`,
           display: "grid",
           gridGap: 3,
           gridTemplateColumns: ["repeat(4, 1fr)", "repeat(11, 1fr)"],
