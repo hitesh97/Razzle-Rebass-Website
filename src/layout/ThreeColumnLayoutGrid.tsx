@@ -1,5 +1,7 @@
 import React from "react";
 import { Box, Flex } from "rebass";
+import SiteFooter from "./SiteFooter";
+import SiteHeader from "./SiteHeader";
 
 class ThreeColumnLayoutGrid extends React.Component<{}, {}> {
   public render() {
@@ -12,48 +14,50 @@ class ThreeColumnLayoutGrid extends React.Component<{}, {}> {
             '"header" "nav" "main" "ads" "footer"',
             '"header header header" "nav main ads" "footer footer footer"',
           ],
-          gridTemplateColumns: ["1fr", "64px 1fr 64px"],
+          gridTemplateColumns: ["1fr", "128px 1fr 128px"],
           gridTemplateRows: [
             "min-content min-content 1fr min-content min-content",
             "min-content 1fr min-content",
           ],
         }}
       >
-        <Box
+        {/*         <Box
           sx={{
             gridArea: "header",
           }}
         >
           Header
-        </Box>
+        </Box> */}
         <Box
           sx={{
             gridArea: "main",
           }}
         >
-          Main Content
+          <SiteHeader isSticky={true} />
+          {this.props.children}
+          <SiteFooter />
         </Box>
         <Box
           sx={{
             gridArea: "nav",
           }}
         >
-          Nav
+          {/*           Nav */}
         </Box>
         <Box
           sx={{
             gridArea: "ads",
           }}
         >
-          Ads
+          {/*           Ads */}
         </Box>
-        <Box
+        {/*         <Box
           sx={{
             gridArea: "footer",
           }}
         >
           Footer
-        </Box>
+        </Box> */}
       </Box>
     );
   }

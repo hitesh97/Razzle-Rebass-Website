@@ -10,6 +10,8 @@ import AboutUs from "./pages/aboutUs";
 import HowWeWork from "./pages/howWeWork";
 import UIDesign from "./pages/uiDesign";
 import CookieConsent from "./layout/CookieConsent";
+// import ThreeColumnLayout from "./layout/ThreeColumnLayout";
+// import ThreeColumnLayoutGrid from "./layout/ThreeColumnLayoutGrid";
 
 interface PrivateRouteProps extends RouteProps {
   // tslint:disable-next-line:no-any

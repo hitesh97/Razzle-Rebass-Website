@@ -2,7 +2,9 @@ import React, { FunctionComponent, useState, useEffect } from "react";
 import { Box, Flex, Link } from "rebass";
 import MenuItems from "../data/menu";
 
-const SiteHeader: FunctionComponent = () => {
+const SiteHeader: FunctionComponent<{ isSticky?: boolean }> = ({
+  isSticky = false,
+}) => {
   const [scrolled, setScrolled] = useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -23,7 +25,7 @@ const SiteHeader: FunctionComponent = () => {
         flexWrap: "wrap",
         color: "white",
         padding: 2,
-        position: `${scrolled ? "fixed" : ""}`,
+        position: `${isSticky ? "sticky" : scrolled ? "fixed" : ""}`,
         top: 0,
         width: "100%",
         backgroundColor: "siteSecondaryBG",

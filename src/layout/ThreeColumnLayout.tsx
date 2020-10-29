@@ -1,14 +1,5 @@
 import React from "react";
 import { Box, Flex } from "rebass";
-import SectionEight from "../components/home/SectionEight";
-import SectionFive from "../components/home/SectionFive";
-import SectionFour from "../components/home/SectionFour";
-import SectionOne from "../components/home/SectionOne";
-import SectionSeven from "../components/home/SectionSeven";
-import SectionSix from "../components/home/SectionSix";
-import SectionThree from "../components/home/SectionThree";
-import SectionTwo from "../components/home/SectionTwo";
-import TopHeroSection from "../components/home/TopHeroSection";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 
@@ -21,9 +12,9 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
           minHeight: "100vh",
         }}
       >
-        <Box>
+        {/*         <Box>
           <SiteHeader />
-        </Box>
+        </Box> */}
         <Flex
           sx={{
             flex: 1,
@@ -36,19 +27,13 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
               minWidth: 0,
             }}
           >
-            <TopHeroSection />
-            <SectionOne />
-            <SectionTwo />
-            <SectionThree />
-            <SectionFour />
-            <SectionFive />
-            <SectionSix />
-            <SectionSeven />
-            <SectionEight />
+            <SiteHeader isSticky={true} />
+            {this.props.children}
+            <SiteFooter />
           </Box>
           <Box
             sx={{
-              flexBasis: ["auto", 64],
+              flexBasis: ["auto", 256],
               order: -1,
             }}
           >
@@ -56,15 +41,15 @@ class ThreeColumnLayout extends React.Component<{}, {}> {
           </Box>
           <Box
             sx={{
-              flexBasis: ["auto", 64],
+              flexBasis: ["auto", 256],
             }}
           >
             {/* Ads */}
           </Box>
         </Flex>
-        <Box>
+        {/*         <Box>
           <SiteFooter />
-        </Box>
+        </Box> */}
       </Flex>
     );
   }
