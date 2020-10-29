@@ -20,3 +20,4 @@ This is an of how to use Razzle with [TypeScript](https://github.com/Microsoft/T
 
 Basic razzle will uses Babel to transform TypeScript to plain JavaScript ( with babel-loader ), and uses TypeScript for type-checking.
 Razzle knows how to resolve `.ts` and `.tsx` files out of box,
+trying vercel deployment command
