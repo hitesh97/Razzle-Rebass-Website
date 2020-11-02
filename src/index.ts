@@ -14,15 +14,7 @@ if (module.hot) {
   console.info("✅  Server-side HMR Enabled!");
 }
 
-console.log("-------- here ----------");
-console.log(process.env);
-console.log("-------- here ----------");
-
 const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
-
-console.log("-------- here 2----------");
-console.log(port);
-console.log("-------- here 2 ----------");
 
 export default express()
   .use((req, res) => app.handle(req, res))
