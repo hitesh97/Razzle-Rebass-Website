@@ -33,6 +33,7 @@ const server = express()
     <html lang="">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
         <meta charSet='utf-8' />
         <title>Akruti Consulting</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +51,7 @@ const server = express()
         body {
           margin: 0px;
           padding: 0px;
-          font-family: "Ubuntu Condensed";
+          font-family: 'Ubuntu Condensed', sans-serif;
           font-size: 1.25rem;
           line-height: "2rem";
         }
