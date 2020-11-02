@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node build/server.js",
+    "start": "NODE_ENV=production node build/server.js",
     "heroku-postbuild": "yarn run build",
-    "serve": "node build/server.js",
     "start:tsc": "tsc -b -w --preserveWatchOutput",
     "start:dev": "yarn start:tsc & razzle start",
     "build": "tsc -b && razzle build",
