@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=production node build/server.js",
-    "heroku-postbuild": "yarn run build",
     "start:tsc": "tsc -b -w --preserveWatchOutput",
     "start:dev": "yarn start:tsc & razzle start",
     "build": "tsc -b && razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "start": "NODE_ENV=production node build/server.js",
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "@rebass/forms": "^4.0.6",
@@ -18,8 +18,10 @@
     "@types/react-modal": "^3.10.6",
     "@types/rebass": "^4.0.7",
     "@types/rebass__forms": "^4.0.4",
+    "cross-env": "^7.0.2",
     "emotion-theming": "^10.0.27",
     "express": "^4.17.1",
+    "razzle-heroku": "^3.0.0",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
