@@ -4,8 +4,16 @@ import { renderToString } from "react-dom/server";
 import { StaticRouter } from "react-router-dom";
 
 import { ThemeProvider } from "emotion-theming";
-// import theme from "@rebass/preset";
+
 import siteTheme from "./themes/SiteThemeGreen";
+
+// @sendgrid/mail
+
+import bodyParser from "body-parser";
+import sgMail from "@sendgrid/mail";
+const smtpKey =
+  "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";
+sgMail.setApiKey(process.env.SENDGRID_API_KEY || smtpKey);
 
 import App from "./App";
 
@@ -19,6 +27,25 @@ syncLoadAssets();
 const server = express()
   .disable("x-powered-by")
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR!))
+  .use(bodyParser.urlencoded({ extended: true }))
+  .use(bodyParser.json())
+  .post("/contactus", (request, response) => {
+    const msg = {
+      to: "khatri.hitesh@gmail.com", // Change to your recipient
+      from: request.body.email, // Change to your verified sender
+      subject: "Akruti Consulting - Contacts-us form enquiry",
+      text: `${JSON.stringify(request.body, null, 8)}`,
+      html: `${JSON.stringify(request.body, null, 8)}`,
+    };
+    sgMail
+      .send(msg)
+      .then(() => {
+        response.send({ error: "" });
+      })
+      .catch((error) => {
+        response.send({ error: "Error sending email" });
+      });
+  })
   .get("/*", (req: express.Request, res: express.Response) => {
     const context = {};
     const markup = renderToString(

@@ -25,7 +25,6 @@ const customStyles = {
 
 const CookieConsent: FunctionComponent = () => {
   const [cookies, setCookie] = useCookies([cookiNames.privacyActioned]);
-  console.log(cookies[cookiNames.privacyActioned]);
   const [closeCookieDialog, setCloseCookieDialog] = useState(
     cookies[cookiNames.privacyActioned] || false
   );
