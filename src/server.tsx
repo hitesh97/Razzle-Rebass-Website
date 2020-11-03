@@ -11,8 +11,7 @@ import siteTheme from "./themes/SiteThemeGreen";
 
 import bodyParser from "body-parser";
 import sgMail from "@sendgrid/mail";
-const smtpKey =
-  "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";
+const smtpKey = "DUMMY_KEY";
 sgMail.setApiKey(process.env.SENDGRID_API_KEY || smtpKey);
 
 import App from "./App";
