@@ -19,7 +19,7 @@ const customStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     height: "400px",
-    width: "800px",
+    maxWidth: "800px",
   },
 };
 
@@ -49,8 +49,8 @@ const CookieConsent: FunctionComponent = () => {
           padding: 2,
           top: "100%",
           width: "100%",
-          paddingRight: "60px",
-          paddingLeft: "60px",
+          paddingRight: "20px",
+          paddingLeft: "20px",
           transitionProperty: "all",
           transitionDuration: "1s",
         }}
@@ -60,9 +60,14 @@ const CookieConsent: FunctionComponent = () => {
             flexGrow: 1,
           }}
         >
-          <Text as="h3">Data and Cookie Consent</Text>
+          <Text as="h4">Data and Cookie Consent</Text>
           <Box
-            style={{ color: "black", fontSize: "0.9rem", marginTop: "20px" }}
+            style={{
+              color: "black",
+              fontSize: "0.7rem",
+              marginTop: "20px",
+              lineHeight: "1.8rem",
+            }}
           >
             In order to provide a more personal user experience, we and our
             partners use technology such as cookies to store and/or access
@@ -83,15 +88,20 @@ const CookieConsent: FunctionComponent = () => {
             flexBasis: 512,
             textAlign: "right",
             flexWrap: "wrap",
+            position: "absolute",
+            bottom: "20px",
+            right: "20px",
           }}
         >
           <ul
             style={{
               display: "inline-flex",
               listStyle: "none",
-              fontSize: "1.2rem",
+              fontSize: "1rem",
               flexWrap: "inherit",
               padding: "0px",
+              marginBlockStart: "0px",
+              marginBlockEnd: "0px",
             }}
           >
             <li style={{ marginRight: "10px" }}>
@@ -103,6 +113,8 @@ const CookieConsent: FunctionComponent = () => {
                   color: "white",
                   fontWeight: "300",
                   cursor: "pointer",
+                  paddingTop: "0px",
+                  paddingBottom: "0px",
                 }}
                 as="a"
                 onClick={() => onCookieUserAction(false)}
@@ -118,8 +130,9 @@ const CookieConsent: FunctionComponent = () => {
                   backgroundColor: "defaultBG",
                   color: "white",
                   fontWeight: "300",
-
                   cursor: "pointer",
+                  paddingTop: "0px",
+                  paddingBottom: "0px",
                 }}
                 onClick={() => onCookieUserAction(true)}
                 as="a"
