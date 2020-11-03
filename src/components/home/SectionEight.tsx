@@ -40,7 +40,7 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
             <Box
               sx={{
                 minHeight: "300px",
-                width: "520px",
+                maxWidth: "520px",
                 backgroundColor: "defaultBG",
                 marginLeft: "20px",
                 marginRight: "60px",
