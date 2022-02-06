@@ -55,7 +55,7 @@ const server = express()
             "Liberation Sans Narrow", /*Windows*/ "Franklin Gothic Demi Cond",
             "Arial Narrow", /*Android*/ sans-serif-condensed, /*Fallback*/ Arial,
             "Trebuchet MS", "Lucida Grande", Tahoma, Verdana, sans-serif;
-          font-size: 1.25rem;
+          font-size: 1rem;
           line-height: "2rem";
         }
         h1 {
