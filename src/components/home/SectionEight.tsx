@@ -40,7 +40,10 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
             <Box
               sx={{
                 minHeight: "300px",
-                width: "520px",
+                '@media screen and (min-width: 64em)': {
+                  width: "520px",
+                  float: "right"
+                },
                 backgroundColor: "defaultBG",
                 marginLeft: "20px",
                 marginRight: "60px",
@@ -53,6 +56,7 @@ class SectionEight extends React.Component<SectionEightProps, {}> {
                   as="h1"
                   sx={{
                     fontWeight: "300",
+                    
                   }}
                 >
                   We Listen, You Talk!

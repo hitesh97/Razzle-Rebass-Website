@@ -38,7 +38,6 @@ class TopHeroSection extends React.Component<TopHeroSectionProps, {}> {
           >
             <Box
               sx={{
-                width: "420px",
                 minHeight: "420px",
                 backgroundColor: "defaultBG",
                 marginLeft: "20px",
